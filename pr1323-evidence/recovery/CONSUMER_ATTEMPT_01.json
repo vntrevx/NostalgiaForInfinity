@@ -1,0 +1,7 @@
+{
+  "status": "FAIL",
+  "command": "python3 research/x8_signals/code_review_20260926/matched_backtest/compare_results.py --recovery-receipt research/x8_signals/code_review_20260926/matched_backtest/recovery/RECOVERY.json",
+  "returncode": 1,
+  "stderr": "Comparison failed: Original interrupted-run state is not the expected native-PASS/modified-unreceipted state",
+  "cause": "Analyzer validated incidental human prose substring timeout against actual text timed out. No backtest or source/config/data failure."
+}

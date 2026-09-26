@@ -1,0 +1,17 @@
+{
+  "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4",
+  "modules": {
+    "freqtrade.data.metrics": {
+      "path": "runtime_sources/metrics.py",
+      "sha256": "d5dfd23bcf556efc5faf23f6031d2b758f29feba0c2ace44080140da3de877ae"
+    },
+    "freqtrade.optimize.optimize_reports.optimize_reports": {
+      "path": "runtime_sources/optimize_reports.py",
+      "sha256": "6ae98213facc41065248aa1415328bba37237ba2627f391bde7d84eb699febf6"
+    },
+    "freqtrade.optimize.backtesting": {
+      "path": "runtime_sources/backtesting.py",
+      "sha256": "2420410f96451cb993a7b475e9f7a4232d89480185cc25c59da8883551be6384"
+    }
+  }
+}

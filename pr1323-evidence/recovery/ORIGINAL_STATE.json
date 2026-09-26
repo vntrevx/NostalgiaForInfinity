@@ -1,0 +1,46 @@
+{
+  "coordinator": {
+    "stage": "RUNNING",
+    "started_utc": "2026-09-25T21:36:51.398500+00:00",
+    "pid": 438449,
+    "completed": [
+      "native"
+    ],
+    "current": "modified",
+    "container": "nfi-pr1323-modified-438449-38db929d",
+    "current_started_utc": "2026-09-25T22:11:25.924586+00:00"
+  },
+  "native_status": {
+    "started_utc": "2026-09-25T21:36:51.413231+00:00",
+    "returncode": 0,
+    "status": "PASS",
+    "export": "backtest_results/backtest-result-2026-09-25_22-11-23.zip",
+    "finished_utc": "2026-09-25T22:11:25.895554+00:00"
+  },
+  "modified_status_exists": false,
+  "owner": {
+    "acquired_at": "2026-09-25T21:36:51.399068+00:00",
+    "backend": "docker-run",
+    "command": "run_years.sh",
+    "container_name": "nfi-pr1323-modified-438449-38db929d",
+    "current_year": "modified",
+    "hostname": "turing",
+    "lease_id": "438449-47464564-2ebcba995b0d4bb5a8abc918895fc9ba",
+    "pid": 438449,
+    "process_start_ticks": 47464564,
+    "run_id": "pr1323-matched-20260926",
+    "schema_version": 1,
+    "strategy": "/home/turing/project/X8_Project/research/x8_signals/code_review_20260926/matched_backtest/sources/native/NostalgiaForInfinityX8.py",
+    "strategy_sha256": "e7b6af6a7307d822c349f6ed4b1170566cafd2e5aaf6ed9a31c1a2f12c7edd35",
+    "tag": "matched",
+    "updated_at": "2026-09-25T22:11:25.924146+00:00",
+    "workspace": "/home/turing/project/X8_Project/research/x8_signals/code_review_20260926/matched_backtest",
+    "years": [
+      "native",
+      "modified"
+    ]
+  },
+  "observed_process_alive": false,
+  "observed_owned_containers": [],
+  "tool_failure": "Coordinator command timed out after3600seconds; original STATUS remainsRUNNING; Docker independentlyrecords bothcontainersexit0."
+}

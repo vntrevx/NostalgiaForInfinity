@@ -1,0 +1,9 @@
+{
+  "PLAN.json": "03ca84b63a924a2fb2cecc48112c475d87f37a39a997f4345a0224c5caacc6fa",
+  "DATA_LOCKS.json": "eac730ea79b0ff7eacbd5a9fed2ce2542f2fea2880aa560c1a384b3c1aee2d39",
+  "config.json": "095a1132245de761f0499c0957030af72003d34002a5c70abdc2233a4af81fcc",
+  "observe_backtest.py": "677cd08295f3a9999bb50b909b7a82dcc05da20de66a144a4222f67574b39ad7",
+  "run_matched.py": "85eae11772944b66f52a1f9f5ab50e632ac82fefbfd508a95660bb9e19035e47",
+  "sources/native/NostalgiaForInfinityX8.py": "e7b6af6a7307d822c349f6ed4b1170566cafd2e5aaf6ed9a31c1a2f12c7edd35",
+  "sources/modified/NostalgiaForInfinityX8.py": "c903185038e1626e32959a647121a2c04b75a13f0aa6ddc0c7127dd8cc7ea6d3"
+}

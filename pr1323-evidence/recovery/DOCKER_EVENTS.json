@@ -1,0 +1,194 @@
+{
+  "captured_utc": "2026-09-26T06:23:12.673925+00:00",
+  "commands": {
+    "native": [
+      "docker",
+      "events",
+      "--since",
+      "2026-09-25T21:30:00Z",
+      "--until",
+      "1790403791",
+      "--filter",
+      "container=nfi-pr1323-native-438449-14a67495",
+      "--format",
+      "{{json .}}"
+    ],
+    "modified": [
+      "docker",
+      "events",
+      "--since",
+      "2026-09-25T21:30:00Z",
+      "--until",
+      "1790403791",
+      "--filter",
+      "container=nfi-pr1323-modified-438449-38db929d",
+      "--format",
+      "{{json .}}"
+    ]
+  },
+  "events": {
+    "native": [
+      {
+        "Type": "container",
+        "Action": "create",
+        "Actor": {
+          "ID": "af4d3aa12df1d67ff78c6cee82169953d1aa5528455c640164dfce3e88d52b27",
+          "Attributes": {
+            "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4",
+            "name": "nfi-pr1323-native-438449-14a67495"
+          }
+        },
+        "scope": "local",
+        "time": 1790372211,
+        "timeNano": 1790372211493900000
+      },
+      {
+        "Type": "container",
+        "Action": "attach",
+        "Actor": {
+          "ID": "af4d3aa12df1d67ff78c6cee82169953d1aa5528455c640164dfce3e88d52b27",
+          "Attributes": {
+            "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4",
+            "name": "nfi-pr1323-native-438449-14a67495"
+          }
+        },
+        "scope": "local",
+        "time": 1790372211,
+        "timeNano": 1790372211495881455
+      },
+      {
+        "Type": "container",
+        "Action": "start",
+        "Actor": {
+          "ID": "af4d3aa12df1d67ff78c6cee82169953d1aa5528455c640164dfce3e88d52b27",
+          "Attributes": {
+            "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4",
+            "name": "nfi-pr1323-native-438449-14a67495"
+          }
+        },
+        "scope": "local",
+        "time": 1790372211,
+        "timeNano": 1790372211630759890
+      },
+      {
+        "Type": "container",
+        "Action": "die",
+        "Actor": {
+          "ID": "af4d3aa12df1d67ff78c6cee82169953d1aa5528455c640164dfce3e88d52b27",
+          "Attributes": {
+            "execDuration": "2074",
+            "exitCode": "0",
+            "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4",
+            "name": "nfi-pr1323-native-438449-14a67495"
+          }
+        },
+        "scope": "local",
+        "time": 1790374285,
+        "timeNano": 1790374285806707145
+      },
+      {
+        "Type": "container",
+        "Action": "destroy",
+        "Actor": {
+          "ID": "af4d3aa12df1d67ff78c6cee82169953d1aa5528455c640164dfce3e88d52b27",
+          "Attributes": {
+            "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4",
+            "name": "nfi-pr1323-native-438449-14a67495"
+          }
+        },
+        "scope": "local",
+        "time": 1790374285,
+        "timeNano": 1790374285836744925
+      }
+    ],
+    "modified": [
+      {
+        "Type": "container",
+        "Action": "create",
+        "Actor": {
+          "ID": "9cd82677381e7a12caba0c5e4bbe8afa2470e647c8206a454d9ad7ce8bb858d7",
+          "Attributes": {
+            "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4",
+            "name": "nfi-pr1323-modified-438449-38db929d"
+          }
+        },
+        "scope": "local",
+        "time": 1790374286,
+        "timeNano": 1790374286037113713
+      },
+      {
+        "Type": "container",
+        "Action": "attach",
+        "Actor": {
+          "ID": "9cd82677381e7a12caba0c5e4bbe8afa2470e647c8206a454d9ad7ce8bb858d7",
+          "Attributes": {
+            "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4",
+            "name": "nfi-pr1323-modified-438449-38db929d"
+          }
+        },
+        "scope": "local",
+        "time": 1790374286,
+        "timeNano": 1790374286038733322
+      },
+      {
+        "Type": "container",
+        "Action": "start",
+        "Actor": {
+          "ID": "9cd82677381e7a12caba0c5e4bbe8afa2470e647c8206a454d9ad7ce8bb858d7",
+          "Attributes": {
+            "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4",
+            "name": "nfi-pr1323-modified-438449-38db929d"
+          }
+        },
+        "scope": "local",
+        "time": 1790374286,
+        "timeNano": 1790374286198519291
+      },
+      {
+        "Type": "container",
+        "Action": "kill",
+        "Actor": {
+          "ID": "9cd82677381e7a12caba0c5e4bbe8afa2470e647c8206a454d9ad7ce8bb858d7",
+          "Attributes": {
+            "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4",
+            "name": "nfi-pr1323-modified-438449-38db929d",
+            "signal": "15"
+          }
+        },
+        "scope": "local",
+        "time": 1790375811,
+        "timeNano": 1790375811103028167
+      },
+      {
+        "Type": "container",
+        "Action": "die",
+        "Actor": {
+          "ID": "9cd82677381e7a12caba0c5e4bbe8afa2470e647c8206a454d9ad7ce8bb858d7",
+          "Attributes": {
+            "execDuration": "1967",
+            "exitCode": "0",
+            "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4",
+            "name": "nfi-pr1323-modified-438449-38db929d"
+          }
+        },
+        "scope": "local",
+        "time": 1790376253,
+        "timeNano": 1790376253406550332
+      },
+      {
+        "Type": "container",
+        "Action": "destroy",
+        "Actor": {
+          "ID": "9cd82677381e7a12caba0c5e4bbe8afa2470e647c8206a454d9ad7ce8bb858d7",
+          "Attributes": {
+            "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4",
+            "name": "nfi-pr1323-modified-438449-38db929d"
+          }
+        },
+        "scope": "local",
+        "time": 1790376253,
+        "timeNano": 1790376253447961804
+      }
+    ]
+  }
+}

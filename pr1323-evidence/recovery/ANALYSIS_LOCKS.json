@@ -1,0 +1,8 @@
+{
+  "compare_results.py": "6a54c6b248a12d0408d2f08acc266082b9132b2fe78f89fe2e64203db0d3a252",
+  "validation/INDEPENDENT_ACCOUNTING.json": "72caeed527af3b84ab7781123584034d5d5175c9b5c0f01c4b7a924db3235801",
+  "runtime_sources/RECEIPT.json": "2830b969bf41d81d0c8a7b1457b3d76b69382b2be96197459df1036a7da7d9f3",
+  "runtime_sources/metrics.py": "d5dfd23bcf556efc5faf23f6031d2b758f29feba0c2ace44080140da3de877ae",
+  "runtime_sources/optimize_reports.py": "6ae98213facc41065248aa1415328bba37237ba2627f391bde7d84eb699febf6",
+  "runtime_sources/backtesting.py": "2420410f96451cb993a7b475e9f7a4232d89480185cc25c59da8883551be6384"
+}

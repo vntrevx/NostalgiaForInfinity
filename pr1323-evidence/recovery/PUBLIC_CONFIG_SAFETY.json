@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checked_fields": [
+    "frozen_config/telegram/token",
+    "frozen_config/telegram/chat_id",
+    "native/telegram/token",
+    "native/telegram/chat_id",
+    "modified/telegram/token",
+    "modified/telegram/chat_id"
+  ],
+  "allowed_values": [
+    "",
+    "REDACTED",
+    null
+  ],
+  "scope": "frozen shared configuration and both embedded official export configurations; no credentials are required for these public-data runs"
+}

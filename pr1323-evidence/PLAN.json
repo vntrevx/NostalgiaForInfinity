@@ -1,0 +1,113 @@
+{
+  "status": "FROZEN",
+  "created_utc": "2026-09-25T21:21:03.048277+00:00",
+  "authorization": "User: proceed immediately with matched before/after backtests and add results to PR1323.",
+  "pr": 1323,
+  "timerange": "20260101-20260806",
+  "end_exclusive": true,
+  "affected_signals": [
+    166,
+    169,
+    171,
+    664,
+    665
+  ],
+  "arms": [
+    "native",
+    "modified"
+  ],
+  "sources": {
+    "native": {
+      "path": "sources/native/NostalgiaForInfinityX8.py",
+      "sha256": "e7b6af6a7307d822c349f6ed4b1170566cafd2e5aaf6ed9a31c1a2f12c7edd35",
+      "commit": "fe76d7aeaeb785eb6f6a145d86fda7b7eaffcadd"
+    },
+    "modified": {
+      "path": "sources/modified/NostalgiaForInfinityX8.py",
+      "sha256": "c903185038e1626e32959a647121a2c04b75a13f0aa6ddc0c7127dd8cc7ea6d3",
+      "commit": "79a210275f76755c15c23490f129ad26cbb3959f"
+    }
+  },
+  "config": "config.json",
+  "runtime": {
+    "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4",
+    "data_host": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures",
+    "cpus": 4,
+    "memory": "12g",
+    "lease_directory": "/run/user/1000/nfi-signal-tools"
+  },
+  "data_manifest": "DATA_LOCKS.json",
+  "config_contract": {
+    "enabled_signals_only": [
+      166,
+      169,
+      171,
+      664,
+      665
+    ],
+    "other_entry_signals_enabled": false,
+    "pairs": [
+      "BTC/USDT:USDT",
+      "ETH/USDT:USDT",
+      "SOL/USDT:USDT",
+      "XRP/USDT:USDT",
+      "BNB/USDT:USDT",
+      "DOGE/USDT:USDT",
+      "ADA/USDT:USDT",
+      "AVAX/USDT:USDT",
+      "LINK/USDT:USDT",
+      "SAND/USDT:USDT",
+      "AXS/USDT:USDT",
+      "INJ/USDT:USDT",
+      "AAVE/USDT:USDT",
+      "RUNE/USDT:USDT",
+      "FIL/USDT:USDT",
+      "GALA/USDT:USDT",
+      "DOT/USDT:USDT",
+      "ALGO/USDT:USDT",
+      "CRV/USDT:USDT"
+    ],
+    "wallet": 100000,
+    "max_open_trades": 6,
+    "fee_per_side": 0.0005,
+    "timeframe": "5m",
+    "trading_mode": "futures",
+    "margin_mode": "isolated",
+    "position_adjustment_enable": true,
+    "grinding_enable": true,
+    "derisk_enable": true,
+    "source_default_risk_exit_preserved": true,
+    "requested_leverage": 3.0,
+    "actual_exchange_caps_preserved": true,
+    "num_cores_indicators_calc": 1
+  },
+  "execution_contract": {
+    "fresh_trade_backtests": 2,
+    "cache": "none",
+    "export": "signals",
+    "independent_empty_userdirs": true,
+    "same_readonly_data": true,
+    "strategy_source_instrumented": false,
+    "observer": "observe_backtest.py",
+    "market_metadata_from_exchange_API": true,
+    "bundled_leverage_tiers_from_pinned_image": true,
+    "no_data_downloads": true
+  },
+  "acceptance": [
+    "Exact source bytes and shared effective parameters match the frozen plan.",
+    "All five affected signals produce nonzero engine tag coverage and filled trade membership; otherwise record coverage gap and investigate before final claim.",
+    "All engine OHLCV/signal/tag rows hash-identical pair by pair.",
+    "Complete official trades and nested orders equal; entry/exit times/tags, direction, quantities, prices, fees, funding and profits not ignored.",
+    "Official portfolio and exact-tag counts/PnL/losses/drawdown equal; any difference must be investigated, not rounded away.",
+    "Independent accounting review and reviewed public evidence before PR update."
+  ],
+  "limits": [
+    "One existing-data futures period; not unseen holdout or profitability/activation assessment.",
+    "Only five affected signals enabled to exercise changed paths; not default-fleet comparison.",
+    "No strategy/risk retune, threshold change, activation or new annual matrix."
+  ],
+  "root_preservation": {
+    "NostalgiaForInfinityX8.py": "c84dec9f4a334c6ce75c6d0066d8661dcd2aee1d08c651746080a11cdfd6d666",
+    "NostalgiaForInfinityX7.py": "376c515fd233ade3c7972907b09e7da51bac7490c623c5744f6d812dda8fbd20"
+  }
+}

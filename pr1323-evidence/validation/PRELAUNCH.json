@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "launch_locks_sha256": "837ed317c5ec7bb00fcf215a01b9ca0abd21d12542c629932bb0caf51379ebd4",
+  "review": "validation/PRELAUNCH_REVIEW_03.json",
+  "parent_followup": "After independent PASS, Docker smoke exposed lowercase no such object stderr; case-insensitive match fixed and actual startup-cancellation smoke passed. Previous failures preserved. Strategy/config/data unchanged.",
+  "runtime_smoke": "validation/RUNNER_CANCELLATION_SMOKE.json",
+  "approved_utc": "2026-09-25T21:36:47.305577+00:00"
+}

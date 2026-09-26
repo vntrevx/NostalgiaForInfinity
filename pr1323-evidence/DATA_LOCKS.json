@@ -1,0 +1,2136 @@
+{
+  "status": "PASS_FRESH_HASHES_MATCH_PRIOR_DATE_AUDIT",
+  "date_coverage_reused_not_trade_results": true,
+  "records": [
+    {
+      "pair": "BTC/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BTC_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/BTC_USDT_USDT-5m-futures.feather",
+      "sha256": "cf43ec31b07d660154cc742c893a7534e0077f8780c34ddeb42974c16875ded4",
+      "bytes": 16144850,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 587520,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "BTC/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BTC_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/BTC_USDT_USDT-15m-futures.feather",
+      "sha256": "43f927a19c74cf1079b24ad823aeb0c644a69b5c67f60a5dd61133ca94c46a79",
+      "bytes": 5609066,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 195840,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "BTC/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BTC_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/BTC_USDT_USDT-1h-futures.feather",
+      "sha256": "565699ee9edc4f2d0e4e7eaabe3692af7ec7a59d7247d791151c9dd91afced4b",
+      "bytes": 1460018,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48960,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "BTC/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BTC_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/BTC_USDT_USDT-4h-futures.feather",
+      "sha256": "5f096670866b43e0a5a520461cb7ca2fd82b5bccc22f7089cc8b3251cd76a77c",
+      "bytes": 385514,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 12240,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "BTC/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BTC_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/BTC_USDT_USDT-1d-futures.feather",
+      "sha256": "de69db4459fb8e12ff174704f57e60b7887bcf8830ede361490a19369af9998a",
+      "bytes": 74698,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 2040,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "BTC/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BTC_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/BTC_USDT_USDT-1h-mark.feather",
+      "sha256": "5da4f0a938425b5674abb96b89d2fadecd966b5f5afab9d85c3f9d86f25ccad5",
+      "bytes": 1673402,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48960,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "BTC/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BTC_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/BTC_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "a21500a3fc785f41b3ee0519117f68b563a203dc210f75d893228f485a2eb8c9",
+      "bytes": 72962,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 6120,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "ETH/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ETH_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/ETH_USDT_USDT-5m-futures.feather",
+      "sha256": "1c2251104c71463ff5d680c40c27720f0b9194440e992a63c87e279541929894",
+      "bytes": 16056490,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 587520,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "ETH/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ETH_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/ETH_USDT_USDT-15m-futures.feather",
+      "sha256": "d3d5ffe8e3d4cdfab1f60056c90dff5d7714990c8f8edca3c3f0396232079c60",
+      "bytes": 5550034,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 195840,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "ETH/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ETH_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/ETH_USDT_USDT-1h-futures.feather",
+      "sha256": "cc3362addc8852db0c7fd9f2919117824650fc3ae6a7f80a8d001de3c29bfe72",
+      "bytes": 1438570,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48960,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "ETH/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ETH_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/ETH_USDT_USDT-4h-futures.feather",
+      "sha256": "6194079580c2f16f20b7975587d944d7e85892b0357335800b9b766767062cf7",
+      "bytes": 375634,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 12240,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "ETH/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ETH_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/ETH_USDT_USDT-1d-futures.feather",
+      "sha256": "071bcdf83676de5fd7657a3381cde393b41ec7958a36bd7862abadb5ff2509b9",
+      "bytes": 72706,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 2040,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "ETH/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ETH_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/ETH_USDT_USDT-1h-mark.feather",
+      "sha256": "c6fb9966130ae80fccc68141790492fd530b2c1403cc3760eb845f34b1b935a5",
+      "bytes": 1659906,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48960,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "ETH/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ETH_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/ETH_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "64c87273c20f125b2698794b22961b8f6d8af0c3585ea13bc362a70ef4d6c868",
+      "bytes": 73994,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 6120,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "SOL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SOL_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/SOL_USDT_USDT-5m-futures.feather",
+      "sha256": "624fea3f1785bdc066c620775cc6c314cd97156d9a749a697afae8ac06cd4a19",
+      "bytes": 13777714,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 557196,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "SOL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SOL_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/SOL_USDT_USDT-15m-futures.feather",
+      "sha256": "501f617d46b4dcf27fd21e48b3519152526215433269fdabb9f5c706d173e2ec",
+      "bytes": 4842538,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 185732,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "SOL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SOL_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/SOL_USDT_USDT-1h-futures.feather",
+      "sha256": "91ef5cc5b873d5398f652f5f49ea7bb16fd46eae7ab905f778f8a9a856cc945c",
+      "bytes": 1293290,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 46433,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "SOL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SOL_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/SOL_USDT_USDT-4h-futures.feather",
+      "sha256": "b1032a4081d13b21f0ccc13e2e96af11fa4412fa7ad04f74296ee4a126395317",
+      "bytes": 353834,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 11609,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "SOL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SOL_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/SOL_USDT_USDT-1d-futures.feather",
+      "sha256": "de023e1d6159a5104b07b13ad0a63c60fbf411c9b95d659c269ea81aff303142",
+      "bytes": 70466,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 1935,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "SOL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SOL_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/SOL_USDT_USDT-1h-mark.feather",
+      "sha256": "29c94edf1a90ede153607697017736a279c9ddfacd4bf6100c8b1849d677431b",
+      "bytes": 1582658,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 46453,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "SOL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SOL_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/SOL_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "444ce5170b7fcf29a904344f3f424dae658c374c4f12357b5bcc5855e6620c07",
+      "bytes": 71874,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 5881,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "XRP/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/XRP_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/XRP_USDT_USDT-5m-futures.feather",
+      "sha256": "1d58dae006de66bb4e716b0e89c2be46a4f0f320c0b9c16a2fd7d78b657fef80",
+      "bytes": 13714018,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 587520,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "XRP/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/XRP_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/XRP_USDT_USDT-15m-futures.feather",
+      "sha256": "052474ceba9de9d09a625c0ce41eef5ee9afbde5a78576de3a01e17b819e647a",
+      "bytes": 4896650,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 195840,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "XRP/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/XRP_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/XRP_USDT_USDT-1h-futures.feather",
+      "sha256": "974f9f597fc68ceda4be549436224b0ba93c50795a46f73792a323854ad7992a",
+      "bytes": 1310322,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48960,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "XRP/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/XRP_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/XRP_USDT_USDT-4h-futures.feather",
+      "sha256": "22b5e8c6b59ed573d238ec394a4e62ceaf3d26b6c47ff4cce0944193db27b27e",
+      "bytes": 359906,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 12240,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "XRP/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/XRP_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/XRP_USDT_USDT-1d-futures.feather",
+      "sha256": "1000631f1bd9c8c2b4ec5314daff732f93e9d04beb4fa67813844b6ce7b166c3",
+      "bytes": 75530,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 2040,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "XRP/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/XRP_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/XRP_USDT_USDT-1h-mark.feather",
+      "sha256": "6afaa9ec9151e7e8475f7085d687f88df7d829763089293e067bc2a627107853",
+      "bytes": 1590058,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48960,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "XRP/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/XRP_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/XRP_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "2d497301f98701e3b09125f2797c000130759c390299543e7051dddf75206677",
+      "bytes": 72538,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 6120,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "BNB/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BNB_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/BNB_USDT_USDT-5m-futures.feather",
+      "sha256": "b85b1f818afb7782219a00c449662f007ec3e11b840cc537ff443768f8173423",
+      "bytes": 14555346,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 587520,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "BNB/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BNB_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/BNB_USDT_USDT-15m-futures.feather",
+      "sha256": "897b0719812a43f9585f05c61ef055988b68670d07eeb9127e0f3a81a78266f2",
+      "bytes": 5100890,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 195840,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "BNB/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BNB_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/BNB_USDT_USDT-1h-futures.feather",
+      "sha256": "78266c749310e51a4913af3fa01008fded67bb478541446e2149a15fb1d2bfc9",
+      "bytes": 1349466,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48960,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "BNB/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BNB_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/BNB_USDT_USDT-4h-futures.feather",
+      "sha256": "a02078bb632be4ac44b3dd13ef9720fcd6d9b2049373193d4b2ae3b5f40134d8",
+      "bytes": 360346,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 12240,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "BNB/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BNB_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/BNB_USDT_USDT-1d-futures.feather",
+      "sha256": "1d81b831196c954a5e0836f8e3ef28727b3a1ca34f69e36d75c781e8fd1ac856",
+      "bytes": 70730,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 2040,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "BNB/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BNB_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/BNB_USDT_USDT-1h-mark.feather",
+      "sha256": "86e6cdb759bc22d90b1959f54611fccaa2c6989c845c5b776c17c391d626c7e7",
+      "bytes": 1653490,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48960,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "BNB/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/BNB_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/BNB_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "5f65c4ec3fc160fcba1f76b7fde1e04abefd958fd3b0332affa79e23b853c5c2",
+      "bytes": 69330,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 6120,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "DOGE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOGE_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/DOGE_USDT_USDT-5m-futures.feather",
+      "sha256": "a0368c6a27291bc4bd60a8b31bf446a8260893ccf96e14c63bea13ccae884bcb",
+      "bytes": 14937602,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 576180,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "DOGE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOGE_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/DOGE_USDT_USDT-15m-futures.feather",
+      "sha256": "5c2b52c06aa7edf6ba1531aed8962cbee194857535704ff73f37c143c641a442",
+      "bytes": 5278170,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 192060,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "DOGE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOGE_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/DOGE_USDT_USDT-1h-futures.feather",
+      "sha256": "a41bceaa6ca0b5b48d12e5ba97d77bfccf065888d47d260e6dbb33640a9c2e6c",
+      "bytes": 1407042,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48015,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "DOGE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOGE_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/DOGE_USDT_USDT-4h-futures.feather",
+      "sha256": "a453d36f73c797d5d86e589eac4ea48e022e1ed77ad0eb07519a89bea867dc34",
+      "bytes": 397818,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 12004,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "DOGE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOGE_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/DOGE_USDT_USDT-1d-futures.feather",
+      "sha256": "0ba9293efa8004719e0feaeab2b11e741546fa6d948f65184c943fb51786153d",
+      "bytes": 88738,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 2001,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "DOGE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOGE_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/DOGE_USDT_USDT-1h-mark.feather",
+      "sha256": "065d3c20ef3348e89baa3b58680984e5991026ee4866d58ee524bc9dd060eae3",
+      "bytes": 1713578,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48021,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "DOGE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOGE_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/DOGE_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "056a5a6db33af702a26d2d88ecfba3e67f593f5abfd29e77c96055b245086e05",
+      "bytes": 70362,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 6002,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "ADA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ADA_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/ADA_USDT_USDT-5m-futures.feather",
+      "sha256": "af2ed676ca3978acc690bae7b437eeaf9c55697efa3d2313fe69d959372f17ff",
+      "bytes": 13521450,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 587520,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "ADA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ADA_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/ADA_USDT_USDT-15m-futures.feather",
+      "sha256": "fbc980d9bf0e2ab4372e5c4bf76c392829fc40ee13319370a1764f76dd831cad",
+      "bytes": 4860082,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 195840,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "ADA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ADA_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/ADA_USDT_USDT-1h-futures.feather",
+      "sha256": "a3a1f5bf20c65a81676f5ffad35520c27b952847a5bcd0f387999935dc230465",
+      "bytes": 1319610,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48960,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "ADA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ADA_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/ADA_USDT_USDT-4h-futures.feather",
+      "sha256": "7ffd26d17d02d33d742b0ac546752b70210f296dbf815635cd898ea792dc246e",
+      "bytes": 364834,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 12240,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "ADA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ADA_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/ADA_USDT_USDT-1d-futures.feather",
+      "sha256": "97b334e2b1fc7893e1eae5fd05531e80b216f984f3705438186743485b0004de",
+      "bytes": 76962,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 2040,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "ADA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ADA_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/ADA_USDT_USDT-1h-mark.feather",
+      "sha256": "cbe2327bea7e7b01cfeb713e5d23cabbe030a2fcd554516107613592e4ee3a2c",
+      "bytes": 1636162,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48960,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "ADA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ADA_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/ADA_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "683605e00749fdec17cfbef3b5cac2b24426d20489b7cffb9b98cc45a0c261cf",
+      "bytes": 70666,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 6120,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "AVAX/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AVAX_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/AVAX_USDT_USDT-5m-futures.feather",
+      "sha256": "b12ff3bee58a19eae192992f567e7601c56fd097d9073e7cb2057578837d7704",
+      "bytes": 13318330,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 554604,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "AVAX/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AVAX_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/AVAX_USDT_USDT-15m-futures.feather",
+      "sha256": "b893e5691f2bdd5ec23fa5546b46a5dee5e0fed75738d98b3e4b3533bc89ab56",
+      "bytes": 4720250,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 184868,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "AVAX/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AVAX_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/AVAX_USDT_USDT-1h-futures.feather",
+      "sha256": "61cd54de739dc14f56eea65af9af276d439caf90cfe3b672021d3f1fc77a0030",
+      "bytes": 1255866,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 46217,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "AVAX/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AVAX_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/AVAX_USDT_USDT-4h-futures.feather",
+      "sha256": "ab3b8a9d18d35d4594090042c76d88cce5bc1b9c3f980a5a58935cb770a20214",
+      "bytes": 340298,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 11555,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "AVAX/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AVAX_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/AVAX_USDT_USDT-1d-futures.feather",
+      "sha256": "a20c5038094a7a21b61a8d44e79a5ee114f21dbc3db84be5e154e257f3ae6872",
+      "bytes": 68634,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 1926,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "AVAX/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AVAX_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/AVAX_USDT_USDT-1h-mark.feather",
+      "sha256": "90ff0326971fd4dff60b68acedcc1f42e2f885b50383c3b7960da9536024e0ee",
+      "bytes": 1590970,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 46239,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "AVAX/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AVAX_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/AVAX_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "3cccc49b0debb2e5d076cb8b7bd0c48dc3c0e40d1d634a9c17d1da8421e3f062",
+      "bytes": 69650,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 5779,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "LINK/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/LINK_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/LINK_USDT_USDT-5m-futures.feather",
+      "sha256": "1615c0f58d8eae59544bdd4f7f446234fae3b3c76ae71fcf47ba3bed24c35c63",
+      "bytes": 14449834,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 587520,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "LINK/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/LINK_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/LINK_USDT_USDT-15m-futures.feather",
+      "sha256": "8eb4fd1b41bb9b3ba2f6decb3381cf5fa9387eaf50998974fedc2dd94d3edce3",
+      "bytes": 5048594,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 195840,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "LINK/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/LINK_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/LINK_USDT_USDT-1h-futures.feather",
+      "sha256": "8eaf4a745de9fc6bec2ac4acd8ffec1310598aa8ca243dd69ad161fa1b46ea16",
+      "bytes": 1320354,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48960,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "LINK/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/LINK_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/LINK_USDT_USDT-4h-futures.feather",
+      "sha256": "684d671156afab8ee7cf587fb57347ac3c804ff096d2d32388586c39c69e4e2e",
+      "bytes": 354434,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 12240,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "LINK/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/LINK_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/LINK_USDT_USDT-1d-futures.feather",
+      "sha256": "877a15a04d0fdd9bff054f1ba675b7084ad4cddfe16164bfafbc42edaa73bf11",
+      "bytes": 70522,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 2040,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "LINK/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/LINK_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/LINK_USDT_USDT-1h-mark.feather",
+      "sha256": "9e47cf4fde38b2a85d3da837dab199e6d75ae4722aab98b86af4a7a61c07e994",
+      "bytes": 1647618,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48960,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "LINK/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/LINK_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/LINK_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "79b85175e53fe700b7588e6842a12813bd9d1ef0d10251e987229ffa98c78ddf",
+      "bytes": 68522,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 6120,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "SAND/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SAND_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/SAND_USDT_USDT-5m-futures.feather",
+      "sha256": "5a8f27c0878eca004ed5ea692c3854dcb4a1a1e6fe32785b7e3d8b44278871fc",
+      "bytes": 12835066,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 518892,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "SAND/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SAND_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/SAND_USDT_USDT-15m-futures.feather",
+      "sha256": "463e10a77b6dfe362de2d8c28eccbcf559ab9a8ba0b01fcbe8bc97435f842d79",
+      "bytes": 4570274,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 172964,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "SAND/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SAND_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/SAND_USDT_USDT-1h-futures.feather",
+      "sha256": "bdb084a8fea7308b2fade8bf14f2f8213b961417e91f3c6ed0b8ddce27f8a205",
+      "bytes": 1250818,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 43241,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "SAND/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SAND_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/SAND_USDT_USDT-4h-futures.feather",
+      "sha256": "8e417c4ac7210fce73b5a8cdc00771ed7d40dd4d1fcade2bb7a14af67543e7ad",
+      "bytes": 354898,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 10811,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "SAND/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SAND_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/SAND_USDT_USDT-1d-futures.feather",
+      "sha256": "8f4d0db146eb8317e6aa8bf88ce8484aa38b09a7d1807730603a6d9c031356b6",
+      "bytes": 76234,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 1802,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "SAND/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SAND_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/SAND_USDT_USDT-1h-mark.feather",
+      "sha256": "256950837e04a3e69c935192899bec9a5148bd16e9ea041a0228f7f90783721b",
+      "bytes": 1533642,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 43246,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "SAND/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/SAND_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/SAND_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "5c12e9f95a22b9a6fcaf5baa4ef5d3be3f93589b1da4d1174889b2c0756289d6",
+      "bytes": 63674,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 5405,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "AXS/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AXS_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/AXS_USDT_USDT-5m-futures.feather",
+      "sha256": "8f184d1a7382c8904cb38f3f7ef82cd8c95b6368202762bcad6a9a79b39960d4",
+      "bytes": 11715146,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 537900,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "AXS/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AXS_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/AXS_USDT_USDT-15m-futures.feather",
+      "sha256": "9b72fcbbd97f0e8f7f00bea07f6d2697887d9728a584abb333d1f1bba8af4adf",
+      "bytes": 4268674,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 179300,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "AXS/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AXS_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/AXS_USDT_USDT-1h-futures.feather",
+      "sha256": "5e51886dc1d5cbda38dc9634f8a57e9ec23a8b85fe7aa592bf3c2aaede31320e",
+      "bytes": 1166074,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 44825,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "AXS/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AXS_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/AXS_USDT_USDT-4h-futures.feather",
+      "sha256": "c017f03f68d9391a4830fdd3e1362e7046549b9070395a71490b5eefa439d02c",
+      "bytes": 321858,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 11207,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "AXS/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AXS_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/AXS_USDT_USDT-1d-futures.feather",
+      "sha256": "f423e4d5984a88aadb8023e7925632f3b025eb03d04105fe280ef18ec3b4017d",
+      "bytes": 64994,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 1868,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "AXS/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AXS_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/AXS_USDT_USDT-1h-mark.feather",
+      "sha256": "d62338e139697657dcbd63055698515ecacdd6009fbcb7d68ff9a484c1a1c127",
+      "bytes": 1513882,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 44829,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "AXS/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AXS_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/AXS_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "c8e10e9775d800e7e52f703936f8d772c7c84456e268757de9e60632493fa89e",
+      "bytes": 85234,
+      "coverage_2026": {
+        "rows": 1407,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 5603,
+        "step_seconds_counts": {
+          "14400.0": 1147,
+          "3600.0": 208,
+          "28800.0": 51
+        }
+      }
+    },
+    {
+      "pair": "INJ/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/INJ_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/INJ_USDT_USDT-5m-futures.feather",
+      "sha256": "d8b9ee06645c3bcea111d49d495299847400ca582b2cf9513ef2fe1df9e9543f",
+      "bytes": 8809146,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 355071,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "INJ/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/INJ_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/INJ_USDT_USDT-15m-futures.feather",
+      "sha256": "0853290d1dc9902fc66c2a08274733150433a019d4e3f663a1cd4dadcb2d73e6",
+      "bytes": 3126538,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 118357,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "INJ/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/INJ_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/INJ_USDT_USDT-1h-futures.feather",
+      "sha256": "a2a545b21f05cfa803bc813169fa8abb2fe2ba6d33aa66b88fc86187682f31a5",
+      "bytes": 841010,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 29590,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "INJ/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/INJ_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/INJ_USDT_USDT-4h-futures.feather",
+      "sha256": "4dccfa34d3e6f35959554de53a8bc1ef174352780ea1394c98f58ff2d2306a7d",
+      "bytes": 230106,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 7398,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "INJ/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/INJ_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/INJ_USDT_USDT-1d-futures.feather",
+      "sha256": "bfc39264a9c8e7b2301da44887b62b30a45a345a7a798cb1d202fd951a960020",
+      "bytes": 47498,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 1233,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "INJ/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/INJ_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/INJ_USDT_USDT-1h-mark.feather",
+      "sha256": "b18b97cf4d5231cf3a0652403ffefcdd70e6ccffd60464c00ca04bb4582901bf",
+      "bytes": 1079042,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 29608,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "INJ/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/INJ_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/INJ_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "78e19cb20647c93644964129d167ad006565643edeb05f4e2649ca1ff7a73c0a",
+      "bytes": 50554,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 3700,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "AAVE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AAVE_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/AAVE_USDT_USDT-5m-futures.feather",
+      "sha256": "82d2ec9e70f1b0dd1d35b5b30cd106c5f825350cb379c4de2d5079bbea4803fb",
+      "bytes": 12975578,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 547980,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "AAVE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AAVE_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/AAVE_USDT_USDT-15m-futures.feather",
+      "sha256": "73a22f156e105351ee9c3b835c5ae4092efd714a0c8b781a7453c2352c6cbe98",
+      "bytes": 4576506,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 182660,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "AAVE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AAVE_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/AAVE_USDT_USDT-1h-futures.feather",
+      "sha256": "950e0486dbc010aea45adee745201ba9b16a943df6e1a27711ec85ee14869b72",
+      "bytes": 1208626,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 45665,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "AAVE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AAVE_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/AAVE_USDT_USDT-4h-futures.feather",
+      "sha256": "cb0d8f7d4460fc7bd3faed3614d22aa66d44012b5e8f1f71ae34b10e05100e67",
+      "bytes": 324250,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 11417,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "AAVE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AAVE_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/AAVE_USDT_USDT-1d-futures.feather",
+      "sha256": "becbdcab77025a7b9d4883c6d9406b37d9f250fc4aac23fdca22200fcdb1595f",
+      "bytes": 64306,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 1903,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "AAVE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AAVE_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/AAVE_USDT_USDT-1h-mark.feather",
+      "sha256": "f39461266a81b01075f29ef6d547c7dbacb7e3f1bc3b3964a39b89ab5c3de802",
+      "bytes": 1547706,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 45669,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "AAVE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/AAVE_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/AAVE_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "617229fec576df01a418d6c0a39344b18a613e785e20ddb2f5c6015c36e1808d",
+      "bytes": 65194,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 5708,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "RUNE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/RUNE_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/RUNE_USDT_USDT-5m-futures.feather",
+      "sha256": "33e8ccacc79b90b4939387e1793bf732aebb63d9625fe97b8bc488064b026450",
+      "bytes": 11989946,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 560074,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "RUNE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/RUNE_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/RUNE_USDT_USDT-15m-futures.feather",
+      "sha256": "79107c72bd561c28e07b1c47c45e0d31587208030dbed41d07988b6c0124790e",
+      "bytes": 4356738,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 186692,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "RUNE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/RUNE_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/RUNE_USDT_USDT-1h-futures.feather",
+      "sha256": "a281e0b1fc7eaab88eded75c1674dcc8ca7e481a20f25b3b21fc91e57282b5cc",
+      "bytes": 1189226,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 46673,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "RUNE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/RUNE_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/RUNE_USDT_USDT-4h-futures.feather",
+      "sha256": "0c4b412a9c57b3c355a983c3a77d48bf7ed28caa6cda4bbcf42c8909e8a85f7d",
+      "bytes": 331170,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 11669,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "RUNE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/RUNE_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/RUNE_USDT_USDT-1d-futures.feather",
+      "sha256": "447b7793160a318322fc190ea6cafec0d21f9cb165f36ebd11ba36897e13cac7",
+      "bytes": 68266,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 1945,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "RUNE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/RUNE_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/RUNE_USDT_USDT-1h-mark.feather",
+      "sha256": "8f5eba077daf1f767c4e7a1e6235ad614b3c699164c6066aee5eba6b6a37a706",
+      "bytes": 1631906,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 46677,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "RUNE/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/RUNE_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/RUNE_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "90b0727ec2949c2be478d8a7681e4599a2aadbe82552f99373c6de3cdb3bbed3",
+      "bytes": 63146,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 5834,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "FIL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/FIL_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/FIL_USDT_USDT-5m-futures.feather",
+      "sha256": "17b20926875f699e3cdade0306a57a7f3f59669a148819da79560b15ed633e44",
+      "bytes": 12432738,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 547992,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "FIL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/FIL_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/FIL_USDT_USDT-15m-futures.feather",
+      "sha256": "fa9e697b7e4e0a2bed564190a428cf4d0677245c12c00cfbeef4a7922a0a8d5d",
+      "bytes": 4465498,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 182664,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "FIL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/FIL_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/FIL_USDT_USDT-1h-futures.feather",
+      "sha256": "2cbf6f31017f8d5c7f17f58b0517b78385ce946f6815661cc69d1c7b1db9226f",
+      "bytes": 1203666,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 45666,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "FIL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/FIL_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/FIL_USDT_USDT-4h-futures.feather",
+      "sha256": "3e7452a8377e3df086c52ca9043579bfcffc04abc462edff6e313b4ae66396db",
+      "bytes": 328290,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 11417,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "FIL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/FIL_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/FIL_USDT_USDT-1d-futures.feather",
+      "sha256": "e612b388ee4bc681e77357ab15869c13a7cf8f1c3526c18f490b3a6a5eaf81f2",
+      "bytes": 66594,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 1903,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "FIL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/FIL_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/FIL_USDT_USDT-1h-mark.feather",
+      "sha256": "05f4a232558eb2737dd94a84e21299a0cfe9ca15250cd584b511cf1e20beff59",
+      "bytes": 1538922,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 45670,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "FIL/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/FIL_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/FIL_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "bcd91484bc26c41be3db624769fe87943defaac61d3869976386e6f1f52b8b0b",
+      "bytes": 64074,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 5708,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "GALA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/GALA_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/GALA_USDT_USDT-5m-futures.feather",
+      "sha256": "b5422c3a15e34ebb0cc796ad16bd0ff50da75cf66490aa029854cba19d70b245",
+      "bytes": 10535122,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 450966,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "GALA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/GALA_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/GALA_USDT_USDT-15m-futures.feather",
+      "sha256": "7737904f12f248730b41d731988338127bf94de693babcb7f86935ac212e6138",
+      "bytes": 3853842,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 150322,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "GALA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/GALA_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/GALA_USDT_USDT-1h-futures.feather",
+      "sha256": "a4b0811581d94343b921dc9f81fbc77bc50aded342804630ce3ceb0efafbf861",
+      "bytes": 1053986,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 37581,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "GALA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/GALA_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/GALA_USDT_USDT-4h-futures.feather",
+      "sha256": "f369159d5cb3cda644c7f7831bf52f9a4d76d5cd9eddc1e4d9413669e45b3958",
+      "bytes": 306706,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 9396,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "GALA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/GALA_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/GALA_USDT_USDT-1d-futures.feather",
+      "sha256": "cc7eabaaefa10ab87df3352dd7c9ed89cf9943fb17e9e3efb2a86bfee3693a42",
+      "bytes": 70602,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 1566,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "GALA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/GALA_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/GALA_USDT_USDT-1h-mark.feather",
+      "sha256": "3b00c7d1b3187bee9bad2b50bd5bf006c2b0055c5f05f0e0ac829fbb9ae6b2b9",
+      "bytes": 1351498,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 37599,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "GALA/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/GALA_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/GALA_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "8e4315a01909bc71e946405da3f2e7683a72959e773223f0fc88cc4612a45b4a",
+      "bytes": 54394,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 4699,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "DOT/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOT_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/DOT_USDT_USDT-5m-futures.feather",
+      "sha256": "4d5f19d70b0a97f0f8405e5b52128b5a9ee3de1fbc1cedfb4fe21f4c994a4d34",
+      "bytes": 12802242,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 563820,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "DOT/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOT_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/DOT_USDT_USDT-15m-futures.feather",
+      "sha256": "8a522cfa6206cc3d1571a8969af11c0535c01655c51f130f37e16d8750a6d348",
+      "bytes": 4608010,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 187940,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "DOT/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOT_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/DOT_USDT_USDT-1h-futures.feather",
+      "sha256": "717f567c36530d5681421efa48c64014c1876cda0cfaf934657839a523851757",
+      "bytes": 1230666,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 46985,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "DOT/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOT_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/DOT_USDT_USDT-4h-futures.feather",
+      "sha256": "a8492ff81577fbd87c6a9990ef1f29eb5cfd827507ac9e3629951613708b7294",
+      "bytes": 331522,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 11747,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "DOT/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOT_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/DOT_USDT_USDT-1d-futures.feather",
+      "sha256": "5909caa91d071ec1b51c974d16de765eb88332145e090f25b9e569b345272863",
+      "bytes": 67154,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 1958,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "DOT/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOT_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/DOT_USDT_USDT-1h-mark.feather",
+      "sha256": "fb250aa04d034551b8be7af13acc5b419ba9cc56098852450efb390b452bc723",
+      "bytes": 1553202,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 47038,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "DOT/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/DOT_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/DOT_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "3620af9280c97cf019313414efea9e687f2c6652349fd60919e80e9827e974d1",
+      "bytes": 72002,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 5879,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "ALGO/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ALGO_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/ALGO_USDT_USDT-5m-futures.feather",
+      "sha256": "8746563f4b9e1d219d7008a7bb04a73ee45c1c49794b2352fdfa3f23f2fe896a",
+      "bytes": 12502466,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 583092,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "ALGO/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ALGO_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/ALGO_USDT_USDT-15m-futures.feather",
+      "sha256": "00ee6904c39bbd124821a35e35d722d00034ce20b166a60c666843d1e4987320",
+      "bytes": 4542602,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 194364,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "ALGO/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ALGO_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/ALGO_USDT_USDT-1h-futures.feather",
+      "sha256": "f10994a8733263dff90939d5e6dc6f25902dec0ae18bf9d69de781a3c99066f8",
+      "bytes": 1237090,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48591,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "ALGO/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ALGO_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/ALGO_USDT_USDT-4h-futures.feather",
+      "sha256": "5edb3657d79f780e8746c70c7e4e7c67094da20b0ed61b5f8d68d5659889df1d",
+      "bytes": 339098,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 12148,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "ALGO/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ALGO_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/ALGO_USDT_USDT-1d-futures.feather",
+      "sha256": "d883ae17c8eddfc0bd0a466faf7fa1460d5e8ff3549f748400ed4dbf792dbefd",
+      "bytes": 71922,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 2025,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "ALGO/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ALGO_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/ALGO_USDT_USDT-1h-mark.feather",
+      "sha256": "ef8f5ca6e73b41fbb9e4b96c1182fb1816505f25bf9450a8776e4d36f5b682ef",
+      "bytes": 1619042,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 48960,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "ALGO/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/ALGO_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/ALGO_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "9bbc1087cba819eb38c1ff39632f5ed8d89b93e69289a7533d152ceb7501e226",
+      "bytes": 65378,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 6120,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    },
+    {
+      "pair": "CRV/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/CRV_USDT_USDT-5m-futures.feather",
+      "relative_path": "futures/CRV_USDT_USDT-5m-futures.feather",
+      "sha256": "d86535b0a3c3dbd5006817f9fcbbec1e33f448efd14362ac90a881e1ed375a24",
+      "bytes": 10546626,
+      "coverage_2026": {
+        "rows": 62496,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:55:00+00:00",
+        "rows_before_start": 560940,
+        "step_seconds_counts": {
+          "300.0": 62495
+        }
+      }
+    },
+    {
+      "pair": "CRV/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/CRV_USDT_USDT-15m-futures.feather",
+      "relative_path": "futures/CRV_USDT_USDT-15m-futures.feather",
+      "sha256": "d8009c181919ef49e736ccaa76d21e194e19776b7bc7762e2fd8003e7c4e6f24",
+      "bytes": 3888826,
+      "coverage_2026": {
+        "rows": 20832,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:45:00+00:00",
+        "rows_before_start": 186980,
+        "step_seconds_counts": {
+          "900.0": 20831
+        }
+      }
+    },
+    {
+      "pair": "CRV/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/CRV_USDT_USDT-1h-futures.feather",
+      "relative_path": "futures/CRV_USDT_USDT-1h-futures.feather",
+      "sha256": "c858c304c15e665a2e0580c8e942452a528cfe3aebae6508274220572b61f307",
+      "bytes": 1076090,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 46745,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "CRV/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/CRV_USDT_USDT-4h-futures.feather",
+      "relative_path": "futures/CRV_USDT_USDT-4h-futures.feather",
+      "sha256": "960aaa361d6486f2993af6f38509ea82764d45567929c0eb11afaa95fcf1dc69",
+      "bytes": 304690,
+      "coverage_2026": {
+        "rows": 1302,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 20:00:00+00:00",
+        "rows_before_start": 11687,
+        "step_seconds_counts": {
+          "14400.0": 1301
+        }
+      }
+    },
+    {
+      "pair": "CRV/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/CRV_USDT_USDT-1d-futures.feather",
+      "relative_path": "futures/CRV_USDT_USDT-1d-futures.feather",
+      "sha256": "78b88eb97a8861924cd28f85d6098630617de31604ee299c9d8c5a0cbca74aa6",
+      "bytes": 63594,
+      "coverage_2026": {
+        "rows": 217,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 00:00:00+00:00",
+        "rows_before_start": 1948,
+        "step_seconds_counts": {
+          "86400.0": 216
+        }
+      }
+    },
+    {
+      "pair": "CRV/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/CRV_USDT_USDT-1h-mark.feather",
+      "relative_path": "futures/CRV_USDT_USDT-1h-mark.feather",
+      "sha256": "61f8cadecd544080dac7e1a6524446ebefe2c10fd6a47130f04e646516c5e974",
+      "bytes": 1602594,
+      "coverage_2026": {
+        "rows": 5208,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 23:00:00+00:00",
+        "rows_before_start": 46749,
+        "step_seconds_counts": {
+          "3600.0": 5207
+        }
+      }
+    },
+    {
+      "pair": "CRV/USDT:USDT",
+      "path": "/home/turing/project/NFI_SignalWork/s192_validation/user_data/data/binance/futures/futures/CRV_USDT_USDT-1h-funding_rate.feather",
+      "relative_path": "futures/CRV_USDT_USDT-1h-funding_rate.feather",
+      "sha256": "aba0b5c8f689a79a74bbfe6f9d43861d2d32845637078d9bcff19047defe2e8b",
+      "bytes": 65346,
+      "coverage_2026": {
+        "rows": 651,
+        "first": "2026-01-01 00:00:00+00:00",
+        "last": "2026-08-05 16:00:00+00:00",
+        "rows_before_start": 5843,
+        "step_seconds_counts": {
+          "28800.0": 650
+        }
+      }
+    }
+  ]
+}

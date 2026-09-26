@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "recovered_utc": "2026-09-26T06:23:12.968482+00:00",
+  "reason": "Tool3600s coordinator timeout; both official containers completed with exit0. Original coordinator/arm receipts not overwritten. Fresh post-interruption input preservation matches original frozen locks.",
+  "no_backtests_rerun": true,
+  "modified_cli_returncode": null,
+  "engine_exit_codes": {
+    "native": 0,
+    "modified": 0
+  },
+  "evidence_sha256": {
+    "execution/STATUS.json": "8a16fa10b40ad5618fc287a2583b2434097fb3d1fa2d77ea982e7f3b0160ded7",
+    "execution/native/status.json": "57b69d8c2b610bb7086157503fe0b809821739ff6fd1e02fdb80cee30cb304a5",
+    "LAUNCH_LOCKS.json": "837ed317c5ec7bb00fcf215a01b9ca0abd21d12542c629932bb0caf51379ebd4",
+    "validation/PRELAUNCH.json": "93c96127612abcd39b49284910f659f436249d13025abbd646042b218ad7ec1f",
+    "recovery/DOCKER_EVENTS.json": "28a4b94559def94b3888aeb8a47f0cecb58acfe0a4724a0b690cc5c64fadd7f7",
+    "recovery/ORIGINAL_STATE.json": "896b0de8dac019774426c96115234b432ca820aaf47933113b3b4cc56ecce80e",
+    "recovery/POST_INTERRUPTION_HASHES.json": "78c65f6d3e08d0e971beab7ab79c97afb8815f28eae161b0b672964f1559224a",
+    "execution/native/COMMAND.json": "77f7fec8c70176a093b1c4af60e3af04eb9cb1c16f798f5f0177609fa56b5a0c",
+    "execution/native/effective_parameters.json": "5081080abc5759e69a6ff3fb363aa5bce9a3b1cad50de960be13006b96c516b1",
+    "execution/native/engine_entry_rows.json": "6db445348cf0cea172ded0f72a4e8e055a2c1a201a56a072940a8b089fb668db",
+    "execution/native/exchange_inputs.json": "17795367a54fbac71ed541e872be71352c33c7ca7415d665c2fda5a983d3e66d",
+    "execution/native/freqtrade.log": "1331dd3332c0dc524d12caaa762b3f2aa1a7d51289fbdaa89587abec33dccbcb",
+    "execution/native/backtest_results/backtest-result-2026-09-25_22-11-23.zip": "7ddb40c33375b926710c09688115232f4fae12e43d8709b91a8d590a51f92253",
+    "execution/modified/COMMAND.json": "bb08575fd7a903970655263e6f04be98825e0ea000f540a38e9ea4893a360f4f",
+    "execution/modified/effective_parameters.json": "5081080abc5759e69a6ff3fb363aa5bce9a3b1cad50de960be13006b96c516b1",
+    "execution/modified/engine_entry_rows.json": "6db445348cf0cea172ded0f72a4e8e055a2c1a201a56a072940a8b089fb668db",
+    "execution/modified/exchange_inputs.json": "17795367a54fbac71ed541e872be71352c33c7ca7415d665c2fda5a983d3e66d",
+    "execution/modified/freqtrade.log": "6f9e28c8a3d78a94a4cf4739850ce2ea69977f1725541f56e6829ac142b4600e",
+    "execution/modified/backtest_results/backtest-result-2026-09-25_22-44-11.zip": "f7e8d68bd2842ea380959219d9aafd39536c2c65a04590561b2c36eb93e93a1b"
+  }
+}

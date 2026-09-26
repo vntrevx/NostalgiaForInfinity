@@ -1,0 +1,1447 @@
+{
+  "bad_trade_controller_capitulation_add_gate_enable": false,
+  "bad_trade_controller_capitulation_add_gate_mfi_14_4h": 30.0,
+  "bad_trade_controller_derisk_hold_enable": false,
+  "bad_trade_controller_derisk_hold_roc_9_1d": -10.0,
+  "bad_trade_controller_derisk_hold_short_enable": false,
+  "bad_trade_controller_stale_exit_enable": true,
+  "bad_trade_controller_stale_max_daily_range_pct": 7.0,
+  "bad_trade_controller_stale_min_adverse_move_pct": 10.0,
+  "bad_trade_controller_stale_min_age_days": 14.0,
+  "bad_trade_controller_structure_break_ema_gap_pct": 35.0,
+  "bad_trade_controller_structure_break_exit_enable": true,
+  "bad_trade_controller_structure_break_min_adverse_move_pct": 25.0,
+  "derisk_enable": true,
+  "derisk_use_grind_stops": true,
+  "exit_profit_only": false,
+  "futures_mode_leverage": 3.0,
+  "futures_mode_leverage_grind_mode": 3.0,
+  "grind_1_derisk_1_profit_threshold_futures": 0.018,
+  "grind_1_derisk_1_profit_threshold_spot": 0.018,
+  "grind_1_derisk_1_stakes_futures": [
+    0.2,
+    0.24,
+    0.28
+  ],
+  "grind_1_derisk_1_stakes_spot": [
+    0.2,
+    0.24,
+    0.28
+  ],
+  "grind_1_derisk_1_stop_grinds_futures": -0.06,
+  "grind_1_derisk_1_stop_grinds_spot": -0.06,
+  "grind_1_derisk_1_sub_thresholds_futures": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_1_derisk_1_sub_thresholds_spot": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_1_profit_threshold_futures": 0.018,
+  "grind_1_profit_threshold_spot": 0.018,
+  "grind_1_stakes_futures": [
+    0.24,
+    0.26,
+    0.28
+  ],
+  "grind_1_stakes_spot": [
+    0.24,
+    0.26,
+    0.28
+  ],
+  "grind_1_stop_grinds_futures": -0.06,
+  "grind_1_stop_grinds_spot": -0.06,
+  "grind_1_sub_thresholds_futures": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_1_sub_thresholds_spot": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_2_derisk_1_profit_threshold_futures": 0.018,
+  "grind_2_derisk_1_profit_threshold_spot": 0.018,
+  "grind_2_derisk_1_stakes_futures": [
+    0.2,
+    0.24,
+    0.28
+  ],
+  "grind_2_derisk_1_stakes_spot": [
+    0.2,
+    0.24,
+    0.28
+  ],
+  "grind_2_derisk_1_stop_grinds_futures": -0.06,
+  "grind_2_derisk_1_stop_grinds_spot": -0.06,
+  "grind_2_derisk_1_sub_thresholds_futures": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_2_derisk_1_sub_thresholds_spot": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_2_profit_threshold_futures": 0.018,
+  "grind_2_profit_threshold_spot": 0.018,
+  "grind_2_stakes_futures": [
+    0.2,
+    0.24,
+    0.28
+  ],
+  "grind_2_stakes_spot": [
+    0.2,
+    0.24,
+    0.28
+  ],
+  "grind_2_stop_grinds_futures": -0.06,
+  "grind_2_stop_grinds_spot": -0.06,
+  "grind_2_sub_thresholds_futures": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_2_sub_thresholds_spot": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_3_profit_threshold_futures": 0.018,
+  "grind_3_profit_threshold_spot": 0.018,
+  "grind_3_stakes_futures": [
+    0.2,
+    0.22,
+    0.24
+  ],
+  "grind_3_stakes_spot": [
+    0.2,
+    0.22,
+    0.24
+  ],
+  "grind_3_stop_grinds_futures": -0.06,
+  "grind_3_stop_grinds_spot": -0.06,
+  "grind_3_sub_thresholds_futures": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_3_sub_thresholds_spot": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_4_profit_threshold_futures": 0.018,
+  "grind_4_profit_threshold_spot": 0.018,
+  "grind_4_stakes_futures": [
+    0.2,
+    0.22,
+    0.24
+  ],
+  "grind_4_stakes_spot": [
+    0.2,
+    0.22,
+    0.24
+  ],
+  "grind_4_stop_grinds_futures": -0.06,
+  "grind_4_stop_grinds_spot": -0.06,
+  "grind_4_sub_thresholds_futures": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_4_sub_thresholds_spot": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_5_profit_threshold_futures": 0.048,
+  "grind_5_profit_threshold_spot": 0.048,
+  "grind_5_stakes_futures": [
+    0.2,
+    0.22,
+    0.24
+  ],
+  "grind_5_stakes_spot": [
+    0.2,
+    0.22,
+    0.24
+  ],
+  "grind_5_stop_grinds_futures": -0.06,
+  "grind_5_stop_grinds_spot": -0.06,
+  "grind_5_sub_thresholds_futures": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_5_sub_thresholds_spot": [
+    -0.12,
+    -0.16,
+    -0.2
+  ],
+  "grind_6_profit_threshold_futures": 0.018,
+  "grind_6_profit_threshold_spot": 0.018,
+  "grind_6_stakes_futures": [
+    0.1,
+    0.11,
+    0.12,
+    0.13,
+    0.14,
+    0.15,
+    0.16,
+    0.17,
+    0.18
+  ],
+  "grind_6_stakes_spot": [
+    0.1,
+    0.11,
+    0.12,
+    0.13,
+    0.14,
+    0.15,
+    0.16,
+    0.17,
+    0.18
+  ],
+  "grind_6_stop_grinds_futures": -0.06,
+  "grind_6_stop_grinds_spot": -0.06,
+  "grind_6_sub_thresholds_futures": [
+    -0.03,
+    -0.08,
+    -0.1,
+    -0.12,
+    -0.14,
+    -0.16,
+    -0.18,
+    -0.2,
+    -0.22
+  ],
+  "grind_6_sub_thresholds_spot": [
+    -0.03,
+    -0.08,
+    -0.1,
+    -0.12,
+    -0.14,
+    -0.16,
+    -0.18,
+    -0.2,
+    -0.22
+  ],
+  "grind_mode_coins": [
+    "AAVE",
+    "ADA",
+    "ALGO",
+    "APE",
+    "APT",
+    "ARB",
+    "ATOM",
+    "AVAX",
+    "BCH",
+    "BNB",
+    "BTC",
+    "CAKE",
+    "CRV",
+    "DOGE",
+    "DYDX",
+    "ETC",
+    "ETH",
+    "FIL",
+    "GALA",
+    "HBAR",
+    "HYPE",
+    "ICP",
+    "INJ",
+    "IOTA",
+    "JUP",
+    "KAS",
+    "LDO",
+    "LINK",
+    "LTC",
+    "NEAR",
+    "NEO",
+    "OP",
+    "POL",
+    "RENDER",
+    "RUNE",
+    "SAND",
+    "SEI",
+    "SOL",
+    "SUI",
+    "THETA",
+    "TIA",
+    "TON",
+    "TRX",
+    "UNI",
+    "VET",
+    "XLM",
+    "XMR",
+    "XRP",
+    "XTZ",
+    "ZEC"
+  ],
+  "grind_mode_first_entry_profit_threshold_futures": 0.018,
+  "grind_mode_first_entry_profit_threshold_spot": 0.018,
+  "grind_mode_first_entry_stop_threshold_futures": -0.2,
+  "grind_mode_first_entry_stop_threshold_spot": -0.2,
+  "grind_mode_max_slots": 1,
+  "grind_mode_stake_multiplier_futures": [
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "grind_mode_stake_multiplier_spot": [
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7
+  ],
+  "grinding_enable": true,
+  "grinding_v1_max_stake": 1.0,
+  "grinding_v2_buyback_1_derisk_futures": -0.26,
+  "grinding_v2_buyback_1_derisk_spot": -0.26,
+  "grinding_v2_buyback_1_distance_ratio_futures": -0.06,
+  "grinding_v2_buyback_1_distance_ratio_spot": -0.06,
+  "grinding_v2_buyback_1_enable": true,
+  "grinding_v2_buyback_1_profit_threshold_futures": 0.05,
+  "grinding_v2_buyback_1_profit_threshold_spot": 0.05,
+  "grinding_v2_buyback_1_stake_futures": 0.1,
+  "grinding_v2_buyback_1_stake_spot": 0.1,
+  "grinding_v2_buyback_1_use_derisk": true,
+  "grinding_v2_buyback_2_derisk_futures": -0.26,
+  "grinding_v2_buyback_2_derisk_spot": -0.26,
+  "grinding_v2_buyback_2_distance_ratio_futures": -0.12,
+  "grinding_v2_buyback_2_distance_ratio_spot": -0.12,
+  "grinding_v2_buyback_2_enable": true,
+  "grinding_v2_buyback_2_profit_threshold_futures": 0.05,
+  "grinding_v2_buyback_2_profit_threshold_spot": 0.05,
+  "grinding_v2_buyback_2_stake_futures": 0.1,
+  "grinding_v2_buyback_2_stake_spot": 0.1,
+  "grinding_v2_buyback_2_use_derisk": true,
+  "grinding_v2_buyback_3_derisk_futures": -0.26,
+  "grinding_v2_buyback_3_derisk_spot": -0.26,
+  "grinding_v2_buyback_3_distance_ratio_futures": -0.16,
+  "grinding_v2_buyback_3_distance_ratio_spot": -0.16,
+  "grinding_v2_buyback_3_enable": true,
+  "grinding_v2_buyback_3_profit_threshold_futures": 0.05,
+  "grinding_v2_buyback_3_profit_threshold_spot": 0.05,
+  "grinding_v2_buyback_3_stake_futures": 0.1,
+  "grinding_v2_buyback_3_stake_spot": 0.1,
+  "grinding_v2_buyback_3_use_derisk": true,
+  "grinding_v2_derisk_global_enable": false,
+  "grinding_v2_derisk_global_futures": -0.3,
+  "grinding_v2_derisk_global_spot": -0.1,
+  "grinding_v2_derisk_level_1_enable": true,
+  "grinding_v2_derisk_level_1_futures": [
+    -0.18,
+    -0.35
+  ],
+  "grinding_v2_derisk_level_1_spot": [
+    -0.06,
+    -0.15
+  ],
+  "grinding_v2_derisk_level_1_stake_futures": 0.2,
+  "grinding_v2_derisk_level_1_stake_spot": 0.2,
+  "grinding_v2_derisk_level_2_enable": true,
+  "grinding_v2_derisk_level_2_futures": [
+    -0.16,
+    -0.54
+  ],
+  "grinding_v2_derisk_level_2_spot": [
+    -0.08,
+    -0.18
+  ],
+  "grinding_v2_derisk_level_2_stake_futures": 0.3,
+  "grinding_v2_derisk_level_2_stake_spot": 0.3,
+  "grinding_v2_derisk_level_3_enable": true,
+  "grinding_v2_derisk_level_3_futures": [
+    -0.3,
+    -0.6
+  ],
+  "grinding_v2_derisk_level_3_spot": [
+    -0.1,
+    -0.2
+  ],
+  "grinding_v2_derisk_level_3_stake_futures": 0.5,
+  "grinding_v2_derisk_level_3_stake_spot": 0.5,
+  "grinding_v2_grind_1_derisk_futures": -0.26,
+  "grinding_v2_grind_1_derisk_spot": -0.26,
+  "grinding_v2_grind_1_enable": true,
+  "grinding_v2_grind_1_profit_threshold_futures": 0.02,
+  "grinding_v2_grind_1_profit_threshold_spot": 0.02,
+  "grinding_v2_grind_1_stakes_futures": [
+    0.2,
+    0.22,
+    0.24,
+    0.26,
+    0.28
+  ],
+  "grinding_v2_grind_1_stakes_spot": [
+    0.2,
+    0.22,
+    0.24,
+    0.26,
+    0.28
+  ],
+  "grinding_v2_grind_1_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "grinding_v2_grind_1_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "grinding_v2_grind_1_use_derisk": true,
+  "grinding_v2_grind_2_derisk_futures": -0.26,
+  "grinding_v2_grind_2_derisk_spot": -0.26,
+  "grinding_v2_grind_2_enable": true,
+  "grinding_v2_grind_2_profit_threshold_futures": 0.02,
+  "grinding_v2_grind_2_profit_threshold_spot": 0.02,
+  "grinding_v2_grind_2_stakes_futures": [
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18
+  ],
+  "grinding_v2_grind_2_stakes_spot": [
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18
+  ],
+  "grinding_v2_grind_2_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "grinding_v2_grind_2_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "grinding_v2_grind_2_use_derisk": true,
+  "grinding_v2_grind_3_derisk_futures": -0.26,
+  "grinding_v2_grind_3_derisk_spot": -0.26,
+  "grinding_v2_grind_3_enable": true,
+  "grinding_v2_grind_3_profit_threshold_futures": 0.02,
+  "grinding_v2_grind_3_profit_threshold_spot": 0.02,
+  "grinding_v2_grind_3_stakes_futures": [
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18
+  ],
+  "grinding_v2_grind_3_stakes_spot": [
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18
+  ],
+  "grinding_v2_grind_3_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "grinding_v2_grind_3_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "grinding_v2_grind_3_use_derisk": true,
+  "grinding_v2_grind_4_derisk_futures": -0.26,
+  "grinding_v2_grind_4_derisk_spot": -0.26,
+  "grinding_v2_grind_4_enable": true,
+  "grinding_v2_grind_4_profit_threshold_futures": 0.1,
+  "grinding_v2_grind_4_profit_threshold_spot": 0.1,
+  "grinding_v2_grind_4_stakes_futures": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09,
+    0.1,
+    0.11
+  ],
+  "grinding_v2_grind_4_stakes_spot": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09,
+    0.1,
+    0.11
+  ],
+  "grinding_v2_grind_4_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.09,
+    -0.12,
+    -0.16,
+    -0.21,
+    -0.27
+  ],
+  "grinding_v2_grind_4_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.09,
+    -0.12,
+    -0.16,
+    -0.21,
+    -0.27
+  ],
+  "grinding_v2_grind_4_use_derisk": true,
+  "grinding_v2_grind_5_derisk_futures": -0.26,
+  "grinding_v2_grind_5_derisk_spot": -0.26,
+  "grinding_v2_grind_5_enable": true,
+  "grinding_v2_grind_5_profit_threshold_futures": 0.1,
+  "grinding_v2_grind_5_profit_threshold_spot": 0.1,
+  "grinding_v2_grind_5_stakes_futures": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09,
+    0.1,
+    0.11
+  ],
+  "grinding_v2_grind_5_stakes_spot": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09,
+    0.1,
+    0.11
+  ],
+  "grinding_v2_grind_5_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.09,
+    -0.12,
+    -0.16,
+    -0.21,
+    -0.27
+  ],
+  "grinding_v2_grind_5_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.09,
+    -0.12,
+    -0.16,
+    -0.21,
+    -0.27
+  ],
+  "grinding_v2_grind_5_use_derisk": true,
+  "grinding_v2_max_grinds_and_buybacks": 20,
+  "grinding_v2_max_stake": 1.0,
+  "grinds_stop_futures": -0.12,
+  "grinds_stop_spot": -0.12,
+  "ignore_roi_if_entry_signal": true,
+  "legacy_system_bad_trade_exit_enable": false,
+  "long_entry_signal_params": {
+    "long_entry_condition_1_enable": false,
+    "long_entry_condition_2_enable": false,
+    "long_entry_condition_3_enable": false,
+    "long_entry_condition_4_enable": false,
+    "long_entry_condition_5_enable": false,
+    "long_entry_condition_6_enable": false,
+    "long_entry_condition_7_enable": false,
+    "long_entry_condition_8_enable": false,
+    "long_entry_condition_9_enable": false,
+    "long_entry_condition_10_enable": false,
+    "long_entry_condition_11_enable": false,
+    "long_entry_condition_21_enable": false,
+    "long_entry_condition_41_enable": false,
+    "long_entry_condition_42_enable": false,
+    "long_entry_condition_43_enable": false,
+    "long_entry_condition_44_enable": false,
+    "long_entry_condition_45_enable": false,
+    "long_entry_condition_46_enable": false,
+    "long_entry_condition_47_enable": false,
+    "long_entry_condition_61_enable": false,
+    "long_entry_condition_62_enable": false,
+    "long_entry_condition_63_enable": false,
+    "long_entry_condition_64_enable": false,
+    "long_entry_condition_65_enable": false,
+    "long_entry_condition_68_enable": false,
+    "long_entry_condition_101_enable": false,
+    "long_entry_condition_102_enable": false,
+    "long_entry_condition_103_enable": false,
+    "long_entry_condition_104_enable": false,
+    "long_entry_condition_105_enable": false,
+    "long_entry_condition_120_enable": false,
+    "long_entry_condition_121_enable": false,
+    "long_entry_condition_141_enable": false,
+    "long_entry_condition_142_enable": false,
+    "long_entry_condition_143_enable": false,
+    "long_entry_condition_144_enable": false,
+    "long_entry_condition_145_enable": false,
+    "long_entry_condition_161_enable": false,
+    "long_entry_condition_162_enable": false,
+    "long_entry_condition_163_enable": false,
+    "long_entry_condition_164_enable": false,
+    "long_entry_condition_165_enable": false,
+    "long_entry_condition_166_enable": true,
+    "long_entry_condition_167_enable": false,
+    "long_entry_condition_168_enable": false,
+    "long_entry_condition_169_enable": true,
+    "long_entry_condition_170_enable": false,
+    "long_entry_condition_171_enable": true,
+    "long_entry_condition_172_enable": false,
+    "long_entry_condition_173_enable": false,
+    "long_entry_condition_192_enable": false,
+    "long_entry_condition_193_enable": false
+  },
+  "long_grind_mode_name": "long_grind",
+  "long_grind_mode_tags": [
+    "120"
+  ],
+  "long_rapid_rebuy_grind_mode_tags": [
+    "101",
+    "102",
+    "103",
+    "104",
+    "105",
+    "106",
+    "107",
+    "108",
+    "109",
+    "110",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "68",
+    "120"
+  ],
+  "long_rapid_rebuy_grind_scalp_mode_tags": [
+    "101",
+    "102",
+    "103",
+    "104",
+    "105",
+    "106",
+    "107",
+    "108",
+    "109",
+    "110",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "68",
+    "120",
+    "161",
+    "162",
+    "163",
+    "164",
+    "165",
+    "166",
+    "167",
+    "168",
+    "169",
+    "170",
+    "171",
+    "172",
+    "173"
+  ],
+  "long_rebuy_grind_mode_tags": [
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "68",
+    "120"
+  ],
+  "long_scalp_rebuy_grind_mode_tags": [
+    "161",
+    "162",
+    "163",
+    "164",
+    "165",
+    "166",
+    "167",
+    "168",
+    "169",
+    "170",
+    "171",
+    "172",
+    "173",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "68",
+    "120"
+  ],
+  "num_cores_indicators_calc": 1,
+  "position_adjustment_enable": true,
+  "rebuy_mode_derisk_futures": -0.6,
+  "rebuy_mode_derisk_spot": -0.6,
+  "regular_mode_derisk_1_futures": -0.6,
+  "regular_mode_derisk_1_futures_old": -0.8,
+  "regular_mode_derisk_1_reentry_futures": -0.08,
+  "regular_mode_derisk_1_reentry_spot": -0.08,
+  "regular_mode_derisk_1_scalp_mode_futures": -0.05,
+  "regular_mode_derisk_1_scalp_mode_spot": -0.05,
+  "regular_mode_derisk_1_spot": -0.24,
+  "regular_mode_derisk_1_spot_old": -0.8,
+  "regular_mode_derisk_futures": -0.6,
+  "regular_mode_derisk_futures_old": -1.2,
+  "regular_mode_derisk_spot": -0.24,
+  "regular_mode_derisk_spot_old": -1.6,
+  "regular_mode_grind_1_profit_threshold_futures": 0.018,
+  "regular_mode_grind_1_profit_threshold_spot": 0.018,
+  "regular_mode_grind_1_stakes_futures": [
+    0.22,
+    0.24,
+    0.26
+  ],
+  "regular_mode_grind_1_stakes_spot": [
+    0.22,
+    0.24,
+    0.26
+  ],
+  "regular_mode_grind_1_stop_grinds_futures": -0.2,
+  "regular_mode_grind_1_stop_grinds_spot": -0.2,
+  "regular_mode_grind_1_thresholds_futures": [
+    -0.06,
+    -0.1,
+    -0.12
+  ],
+  "regular_mode_grind_1_thresholds_spot": [
+    -0.06,
+    -0.1,
+    -0.12
+  ],
+  "regular_mode_grind_2_profit_threshold_futures": 0.018,
+  "regular_mode_grind_2_profit_threshold_spot": 0.018,
+  "regular_mode_grind_2_stakes_futures": [
+    0.14,
+    0.2,
+    0.26
+  ],
+  "regular_mode_grind_2_stakes_spot": [
+    0.14,
+    0.2,
+    0.26
+  ],
+  "regular_mode_grind_2_stop_grinds_futures": -0.2,
+  "regular_mode_grind_2_stop_grinds_spot": -0.2,
+  "regular_mode_grind_2_thresholds_futures": [
+    -0.04,
+    -0.1,
+    -0.12
+  ],
+  "regular_mode_grind_2_thresholds_spot": [
+    -0.04,
+    -0.1,
+    -0.12
+  ],
+  "regular_mode_grind_3_profit_threshold_futures": 0.018,
+  "regular_mode_grind_3_profit_threshold_spot": 0.018,
+  "regular_mode_grind_3_stakes_futures": [
+    0.18,
+    0.2,
+    0.22
+  ],
+  "regular_mode_grind_3_stakes_spot": [
+    0.18,
+    0.2,
+    0.22
+  ],
+  "regular_mode_grind_3_stop_grinds_futures": -0.2,
+  "regular_mode_grind_3_stop_grinds_spot": -0.2,
+  "regular_mode_grind_3_thresholds_futures": [
+    -0.03,
+    -0.1,
+    -0.12
+  ],
+  "regular_mode_grind_3_thresholds_spot": [
+    -0.03,
+    -0.1,
+    -0.12
+  ],
+  "regular_mode_grind_4_profit_threshold_futures": 0.018,
+  "regular_mode_grind_4_profit_threshold_spot": 0.018,
+  "regular_mode_grind_4_stakes_futures": [
+    0.18,
+    0.2,
+    0.22
+  ],
+  "regular_mode_grind_4_stakes_spot": [
+    0.18,
+    0.2,
+    0.22
+  ],
+  "regular_mode_grind_4_stop_grinds_futures": -0.2,
+  "regular_mode_grind_4_stop_grinds_spot": -0.2,
+  "regular_mode_grind_4_thresholds_futures": [
+    -0.03,
+    -0.1,
+    -0.12
+  ],
+  "regular_mode_grind_4_thresholds_spot": [
+    -0.03,
+    -0.1,
+    -0.12
+  ],
+  "regular_mode_grind_5_profit_threshold_futures": 0.048,
+  "regular_mode_grind_5_profit_threshold_spot": 0.048,
+  "regular_mode_grind_5_stakes_futures": [
+    0.18,
+    0.2,
+    0.22
+  ],
+  "regular_mode_grind_5_stakes_spot": [
+    0.18,
+    0.2,
+    0.22
+  ],
+  "regular_mode_grind_5_stop_grinds_futures": -0.2,
+  "regular_mode_grind_5_stop_grinds_spot": -0.2,
+  "regular_mode_grind_5_thresholds_futures": [
+    -0.03,
+    -0.1,
+    -0.12
+  ],
+  "regular_mode_grind_5_thresholds_spot": [
+    -0.03,
+    -0.1,
+    -0.12
+  ],
+  "regular_mode_grind_6_profit_threshold_futures": 0.018,
+  "regular_mode_grind_6_profit_threshold_spot": 0.018,
+  "regular_mode_grind_6_stakes_futures": [
+    0.05,
+    0.057,
+    0.065,
+    0.074,
+    0.084,
+    0.095,
+    0.107,
+    0.121,
+    0.137
+  ],
+  "regular_mode_grind_6_stakes_spot": [
+    0.05,
+    0.057,
+    0.065,
+    0.074,
+    0.084,
+    0.095,
+    0.107,
+    0.121,
+    0.137
+  ],
+  "regular_mode_grind_6_stop_grinds_futures": -0.2,
+  "regular_mode_grind_6_stop_grinds_spot": -0.2,
+  "regular_mode_grind_6_thresholds_futures": [
+    -0.025,
+    -0.05,
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1,
+    -0.11,
+    -0.12
+  ],
+  "regular_mode_grind_6_thresholds_spot": [
+    -0.025,
+    -0.05,
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1,
+    -0.11,
+    -0.12
+  ],
+  "regular_mode_use_grind_stops": false,
+  "short_entry_signal_params": {
+    "short_entry_condition_501_enable": false,
+    "short_entry_condition_502_enable": false,
+    "short_entry_condition_505_enable": false,
+    "short_entry_condition_506_enable": false,
+    "short_entry_condition_542_enable": false,
+    "short_entry_condition_543_enable": false,
+    "short_entry_condition_544_enable": false,
+    "short_entry_condition_545_enable": false,
+    "short_entry_condition_546_enable": false,
+    "short_entry_condition_561_enable": false,
+    "short_entry_condition_562_enable": false,
+    "short_entry_condition_563_enable": false,
+    "short_entry_condition_592_enable": false,
+    "short_entry_condition_593_enable": false,
+    "short_entry_condition_605_enable": false,
+    "short_entry_condition_662_enable": false,
+    "short_entry_condition_663_enable": false,
+    "short_entry_condition_664_enable": true,
+    "short_entry_condition_665_enable": true,
+    "short_entry_condition_666_enable": false,
+    "short_entry_condition_667_enable": false,
+    "short_entry_condition_669_enable": false,
+    "short_entry_condition_670_enable": false,
+    "short_entry_condition_671_enable": false
+  },
+  "short_grind_mode_tags": [
+    "620"
+  ],
+  "short_rapid_rebuy_grind_mode_tags": [
+    "601",
+    "602",
+    "603",
+    "604",
+    "605",
+    "606",
+    "607",
+    "608",
+    "609",
+    "610",
+    "561",
+    "562",
+    "563",
+    "620"
+  ],
+  "short_rebuy_grind_mode_tags": [
+    "561",
+    "562",
+    "563",
+    "620"
+  ],
+  "short_scalp_rebuy_grind_mode_tags": [
+    "661",
+    "662",
+    "663",
+    "664",
+    "665",
+    "666",
+    "667",
+    "670",
+    "669",
+    "671",
+    "561",
+    "562",
+    "563",
+    "620"
+  ],
+  "system_name_use": "system_v4",
+  "system_v3_2_derisk_level_1_enable": true,
+  "system_v3_2_derisk_level_1_futures": [
+    -0.18,
+    -0.35
+  ],
+  "system_v3_2_derisk_level_1_spot": [
+    -0.06,
+    -0.12
+  ],
+  "system_v3_2_derisk_level_1_stake_futures": 0.2,
+  "system_v3_2_derisk_level_1_stake_spot": 0.2,
+  "system_v3_2_derisk_level_2_enable": true,
+  "system_v3_2_derisk_level_2_futures": [
+    -0.24,
+    -0.54
+  ],
+  "system_v3_2_derisk_level_2_spot": [
+    -0.08,
+    -0.18
+  ],
+  "system_v3_2_derisk_level_2_stake_futures": 0.3,
+  "system_v3_2_derisk_level_2_stake_spot": 0.3,
+  "system_v3_2_derisk_level_3_enable": true,
+  "system_v3_2_derisk_level_3_futures": [
+    -0.3,
+    -0.6
+  ],
+  "system_v3_2_derisk_level_3_spot": [
+    -0.1,
+    -0.2
+  ],
+  "system_v3_2_derisk_level_3_stake_futures": 0.5,
+  "system_v3_2_derisk_level_3_stake_spot": 0.5,
+  "system_v3_2_derisk_level_4_enable": false,
+  "system_v3_2_derisk_level_4_futures": [
+    -0.06,
+    -0.24
+  ],
+  "system_v3_2_derisk_level_4_spot": [
+    -0.02,
+    -0.08
+  ],
+  "system_v3_2_derisk_level_4_stake_futures": 1.0,
+  "system_v3_2_derisk_level_4_stake_spot": 1.0,
+  "system_v3_buyback_1_derisk_futures": -0.08,
+  "system_v3_buyback_1_derisk_spot": -0.08,
+  "system_v3_buyback_1_distance_ratio_negative_futures": -0.04,
+  "system_v3_buyback_1_distance_ratio_negative_spot": -0.04,
+  "system_v3_buyback_1_distance_ratio_positive_futures": 0.02,
+  "system_v3_buyback_1_distance_ratio_positive_spot": 0.02,
+  "system_v3_buyback_1_enable": false,
+  "system_v3_buyback_1_stake_futures": 1.0,
+  "system_v3_buyback_1_stake_spot": 1.0,
+  "system_v3_buyback_1_use_derisk": true,
+  "system_v3_derisk_level_1_enable": true,
+  "system_v3_derisk_level_1_futures": [
+    -0.12,
+    -0.18
+  ],
+  "system_v3_derisk_level_1_spot": [
+    -0.04,
+    -0.06
+  ],
+  "system_v3_derisk_level_1_stake_futures": 0.1,
+  "system_v3_derisk_level_1_stake_spot": 0.1,
+  "system_v3_derisk_level_2_enable": true,
+  "system_v3_derisk_level_2_futures": [
+    -0.18,
+    -0.24
+  ],
+  "system_v3_derisk_level_2_spot": [
+    -0.06,
+    -0.08
+  ],
+  "system_v3_derisk_level_2_stake_futures": 0.1,
+  "system_v3_derisk_level_2_stake_spot": 0.1,
+  "system_v3_derisk_level_3_enable": true,
+  "system_v3_derisk_level_3_futures": [
+    -0.24,
+    -0.3
+  ],
+  "system_v3_derisk_level_3_spot": [
+    -0.08,
+    -0.1
+  ],
+  "system_v3_derisk_level_3_stake_futures": 0.1,
+  "system_v3_derisk_level_3_stake_spot": 0.1,
+  "system_v3_grind_1_derisk_futures": -0.22,
+  "system_v3_grind_1_derisk_spot": -0.22,
+  "system_v3_grind_1_enable": true,
+  "system_v3_grind_1_profit_threshold_futures": 0.025,
+  "system_v3_grind_1_profit_threshold_spot": 0.025,
+  "system_v3_grind_1_stakes_futures": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "system_v3_grind_1_stakes_spot": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "system_v3_grind_1_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v3_grind_1_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v3_grind_1_use_derisk": true,
+  "system_v3_grind_2_derisk_futures": -0.22,
+  "system_v3_grind_2_derisk_spot": -0.22,
+  "system_v3_grind_2_enable": true,
+  "system_v3_grind_2_profit_threshold_futures": 0.035,
+  "system_v3_grind_2_profit_threshold_spot": 0.035,
+  "system_v3_grind_2_stakes_futures": [
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18
+  ],
+  "system_v3_grind_2_stakes_spot": [
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18
+  ],
+  "system_v3_grind_2_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v3_grind_2_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v3_grind_2_use_derisk": true,
+  "system_v3_grind_3_derisk_futures": -0.22,
+  "system_v3_grind_3_derisk_spot": -0.22,
+  "system_v3_grind_3_enable": true,
+  "system_v3_grind_3_profit_threshold_futures": 0.04,
+  "system_v3_grind_3_profit_threshold_spot": 0.04,
+  "system_v3_grind_3_stakes_futures": [
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18
+  ],
+  "system_v3_grind_3_stakes_spot": [
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18
+  ],
+  "system_v3_grind_3_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v3_grind_3_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v3_grind_3_use_derisk": true,
+  "system_v3_grind_4_derisk_futures": -0.22,
+  "system_v3_grind_4_derisk_spot": -0.22,
+  "system_v3_grind_4_enable": true,
+  "system_v3_grind_4_profit_threshold_futures": 0.05,
+  "system_v3_grind_4_profit_threshold_spot": 0.05,
+  "system_v3_grind_4_stakes_futures": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09
+  ],
+  "system_v3_grind_4_stakes_spot": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09
+  ],
+  "system_v3_grind_4_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v3_grind_4_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v3_grind_4_use_derisk": true,
+  "system_v3_grind_5_derisk_futures": -0.22,
+  "system_v3_grind_5_derisk_spot": -0.22,
+  "system_v3_grind_5_enable": true,
+  "system_v3_grind_5_profit_threshold_futures": 0.06,
+  "system_v3_grind_5_profit_threshold_spot": 0.06,
+  "system_v3_grind_5_stakes_futures": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09
+  ],
+  "system_v3_grind_5_stakes_spot": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09
+  ],
+  "system_v3_grind_5_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v3_grind_5_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v3_grind_5_use_derisk": true,
+  "system_v3_rebuy_mode_derisk_futures": -1.4,
+  "system_v3_rebuy_mode_derisk_spot": -0.48,
+  "system_v4_bad_trade_exit_enable": true,
+  "system_v4_buyback_1_derisk_futures": -0.08,
+  "system_v4_buyback_1_derisk_spot": -0.08,
+  "system_v4_buyback_1_distance_ratio_negative_futures": -0.04,
+  "system_v4_buyback_1_distance_ratio_negative_spot": -0.04,
+  "system_v4_buyback_1_distance_ratio_positive_futures": 0.02,
+  "system_v4_buyback_1_distance_ratio_positive_spot": 0.02,
+  "system_v4_buyback_1_enable": false,
+  "system_v4_buyback_1_stake_futures": 1.0,
+  "system_v4_buyback_1_stake_spot": 1.0,
+  "system_v4_buyback_1_use_derisk": true,
+  "system_v4_derisk_level_1_enable": true,
+  "system_v4_derisk_level_1_futures": [
+    -0.18,
+    -0.35
+  ],
+  "system_v4_derisk_level_1_spot": [
+    -0.06,
+    -0.12
+  ],
+  "system_v4_derisk_level_1_stake_futures": 0.2,
+  "system_v4_derisk_level_1_stake_spot": 0.2,
+  "system_v4_derisk_level_2_enable": true,
+  "system_v4_derisk_level_2_futures": [
+    -0.24,
+    -0.54
+  ],
+  "system_v4_derisk_level_2_spot": [
+    -0.08,
+    -0.18
+  ],
+  "system_v4_derisk_level_2_stake_futures": 0.3,
+  "system_v4_derisk_level_2_stake_spot": 0.3,
+  "system_v4_derisk_level_3_enable": true,
+  "system_v4_derisk_level_3_futures": [
+    -0.3,
+    -0.6
+  ],
+  "system_v4_derisk_level_3_spot": [
+    -0.1,
+    -0.2
+  ],
+  "system_v4_derisk_level_3_stake_futures": 0.5,
+  "system_v4_derisk_level_3_stake_spot": 0.5,
+  "system_v4_derisk_level_4_enable": false,
+  "system_v4_derisk_level_4_futures": [
+    -0.06,
+    -0.24
+  ],
+  "system_v4_derisk_level_4_spot": [
+    -0.02,
+    -0.08
+  ],
+  "system_v4_derisk_level_4_stake_futures": 1.0,
+  "system_v4_derisk_level_4_stake_spot": 1.0,
+  "system_v4_grind_1_derisk_futures": -0.22,
+  "system_v4_grind_1_derisk_spot": -0.22,
+  "system_v4_grind_1_enable": true,
+  "system_v4_grind_1_profit_threshold_futures": 0.025,
+  "system_v4_grind_1_profit_threshold_spot": 0.025,
+  "system_v4_grind_1_stakes_futures": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "system_v4_grind_1_stakes_spot": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "system_v4_grind_1_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v4_grind_1_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v4_grind_1_use_derisk": true,
+  "system_v4_grind_2_derisk_futures": -0.22,
+  "system_v4_grind_2_derisk_spot": -0.22,
+  "system_v4_grind_2_enable": true,
+  "system_v4_grind_2_profit_threshold_futures": 0.035,
+  "system_v4_grind_2_profit_threshold_spot": 0.035,
+  "system_v4_grind_2_stakes_futures": [
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18
+  ],
+  "system_v4_grind_2_stakes_spot": [
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18
+  ],
+  "system_v4_grind_2_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v4_grind_2_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v4_grind_2_use_derisk": true,
+  "system_v4_grind_3_derisk_futures": -0.22,
+  "system_v4_grind_3_derisk_spot": -0.22,
+  "system_v4_grind_3_enable": true,
+  "system_v4_grind_3_profit_threshold_futures": 0.04,
+  "system_v4_grind_3_profit_threshold_spot": 0.04,
+  "system_v4_grind_3_stakes_futures": [
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18
+  ],
+  "system_v4_grind_3_stakes_spot": [
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18
+  ],
+  "system_v4_grind_3_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v4_grind_3_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v4_grind_3_use_derisk": true,
+  "system_v4_grind_4_derisk_futures": -0.22,
+  "system_v4_grind_4_derisk_spot": -0.22,
+  "system_v4_grind_4_enable": true,
+  "system_v4_grind_4_profit_threshold_futures": 0.05,
+  "system_v4_grind_4_profit_threshold_spot": 0.05,
+  "system_v4_grind_4_stakes_futures": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09
+  ],
+  "system_v4_grind_4_stakes_spot": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09
+  ],
+  "system_v4_grind_4_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v4_grind_4_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v4_grind_4_use_derisk": true,
+  "system_v4_grind_5_derisk_futures": -0.22,
+  "system_v4_grind_5_derisk_spot": -0.22,
+  "system_v4_grind_5_enable": true,
+  "system_v4_grind_5_profit_threshold_futures": 0.06,
+  "system_v4_grind_5_profit_threshold_spot": 0.06,
+  "system_v4_grind_5_stakes_futures": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09
+  ],
+  "system_v4_grind_5_stakes_spot": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09
+  ],
+  "system_v4_grind_5_thresholds_futures": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v4_grind_5_thresholds_spot": [
+    -0.06,
+    -0.07,
+    -0.08,
+    -0.09,
+    -0.1
+  ],
+  "system_v4_grind_5_use_derisk": true,
+  "system_v4_rebuy_mode_derisk_futures": -1.4,
+  "system_v4_rebuy_mode_derisk_spot": -0.48,
+  "timeframe": "5m",
+  "use_exit_signal": true
+}

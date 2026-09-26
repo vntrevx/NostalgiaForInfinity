@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "scope": "Independent stdlib zipfile/json/Decimal accounting of the two existing official backtest exports; no backtest, strategy change, or consumer comparator imported or executed.",
+  "exports": {
+    "native": {
+      "path": "execution/native/backtest_results/backtest-result-2026-09-25_22-11-23.zip",
+      "sha256": "7ddb40c33375b926710c09688115232f4fae12e43d8709b91a8d590a51f92253",
+      "official_json_sha256": "feda5db17a29b2c61cf40c7eabc1896420676ce3dc206a5e9cf97f7b4da42076"
+    },
+    "modified": {
+      "path": "execution/modified/backtest_results/backtest-result-2026-09-25_22-44-11.zip",
+      "sha256": "f7e8d68bd2842ea380959219d9aafd39536c2c65a04590561b2c36eb93e93a1b",
+      "official_json_sha256": "3d502860ddd3c9c5010d173262c9e4c5c3522be74969703c730ecbe247930f3d"
+    }
+  },
+  "official_export_comparison": {
+    "method": "Parse both complete official JSON members with json.loads(parse_float=Decimal), recursively compare every dict key/list item/scalar with no ignored trade or order fields.",
+    "all_441_trades_and_nested_orders_exactly_equal": true,
+    "nested_orders_each_arm": 1712,
+    "strategy_comparison_exactly_equal": true,
+    "all_official_semantic_stats_exactly_equal": true,
+    "only_differing_official_json_paths": {
+      "strategy/NostalgiaForInfinityX8/backtest_run_start_ts": {"native": 1790372229, "modified": 1790374304},
+      "strategy/NostalgiaForInfinityX8/backtest_run_end_ts": {"native": 1790374279, "modified": 1790376248}
+    },
+    "excluded_only": "These two run-clock timestamps; no other official JSON fields differ. ZIP byte hashes differ as expected because run times and embedded strategy sources differ. Sidecar meta run_id/backtest_start_time are run-specific, not trade results.",
+    "profit_delta_modified_minus_native": "0"
+  },
+  "decimal_trade_accounting": {
+    "method": "Sum each serialized trade profit_abs using Decimal; enter_tag keys are exact including trailing spaces. Native and modified ledgers are identical. Negative-profit subtotal is already included in net, not an additional expense. Official report totals use pandas floating arithmetic and may differ at insignificant sub-nanounit digits from exact serialized-trade Decimal sums.",
+    "enter_tag_groups": {
+      "166 ": {"trades": 106, "wins": 95, "losses": 11, "draws": 0, "net_usdt": "-38490.247038140001538", "losing_trade_subtotal_usdt": "-72479.2461502200015"},
+      "166 169 ": {"trades": 1, "wins": 1, "losses": 0, "draws": 0, "net_usdt": "2207.25090927", "losing_trade_subtotal_usdt": "0"},
+      "169 ": {"trades": 44, "wins": 42, "losses": 2, "draws": 0, "net_usdt": "7559.36124637999996", "losing_trade_subtotal_usdt": "-10638.21428631"},
+      "171 ": {"trades": 20, "wins": 16, "losses": 4, "draws": 0, "net_usdt": "-14720.37628697000302", "losing_trade_subtotal_usdt": "-20094.554474380003"},
+      "664 ": {"trades": 97, "wins": 84, "losses": 13, "draws": 0, "net_usdt": "-43978.47524328000080", "losing_trade_subtotal_usdt": "-74403.512874940000"},
+      "665 ": {"trades": 173, "wins": 163, "losses": 10, "draws": 0, "net_usdt": "28276.47563295000139", "losing_trade_subtotal_usdt": "-50088.385631969999"}
+    },
+    "portfolio": {"trades": 441, "wins": 401, "losses": 40, "draws": 0, "winning_trade_subtotal_usdt": "168557.902638029999492", "losing_trade_subtotal_usdt": "-227703.9134178200035", "net_usdt": "-59146.010779790004008", "nested_orders": 1712},
+    "reconciliation": "Six mutually exclusive exact tags sum to 441 trades, 401 wins, 40 losses and 1712 nested orders; official results_per_enter_tag and TOTAL counts/wins/losses agree. The official portfolio profit_total_abs is -59146.010779790005 USDT in both arms; Decimal summing individually serialized values yields -59146.010779790004008 USDT."
+  },
+  "five_affected_signal_coverage": {
+    "engine_entry_rows_identical_by_pair": true,
+    "pairs": 19,
+    "total_engine_rows_each_arm": 1187424,
+    "tagged_engine_candle_memberships_each_arm": {"166": 1190, "169": 380, "171": 335, "664": 1431, "665": 2498},
+    "filled_trade_memberships_each_arm": {"166": 107, "169": 45, "171": 20, "664": 97, "665": 173},
+    "overlap": "One filled trade has exact tag '166 169 '; membership counts therefore total 442 for 441 distinct trades. All five signals have nonzero engine tag coverage and filled membership; the exact engine row hashes and tagged-candle counts match for all 19 pairs."
+  },
+  "official_portfolio": {
+    "native_equals_modified": true,
+    "trades": 441,
+    "starting_balance_usdt": "100000",
+    "profit_total_abs_usdt": "-59146.010779790005",
+    "profit_total_fraction_of_start": "-0.5914601077979",
+    "final_balance_usdt": "40853.989220210016",
+    "closed_trade_drawdown": {
+      "abs_usdt": "81057.63818209",
+      "relative_fraction": "0.6648884926669492",
+      "start": "2026-02-20 04:20:00",
+      "end": "2026-08-06 00:00:00",
+      "basis": "Official strategy max_drawdown_*: optimize_reports.py:740-762 calls calculate_max_drawdown(results, value_col='profit_abs', starting_balance=start_balance); metrics.py:130-161,207-269 sorts closed trades by close_date and accumulates closed profit."
+    },
+    "marked_wallet_balance_drawdown": {
+      "abs_usdt": "74118.00270165",
+      "relative_fraction": "0.6361143013155454",
+      "start": "2026-02-19 16:00:00",
+      "end": "2026-07-11 00:05:00",
+      "basis": "Official wallet_stats max_drawdown_*: optimize_reports.py:37-121 groups wallet capture values by date, sums rate*balance, calls calculate_max_drawdown_from_balance; this includes wallet valuation and is NOT the closed-trade drawdown or a substitution for it."
+    },
+    "wallet_stats_end_balance_usdt": "45467.37242670002"
+  },
+  "provenance": {
+    "launch_source_sha256": {"native": "e7b6af6a7307d822c349f6ed4b1170566cafd2e5aaf6ed9a31c1a2f12c7edd35", "modified": "c903185038e1626e32959a647121a2c04b75a13f0aa6ddc0c7127dd8cc7ea6d3"},
+    "embedded_archive_strategy_matches_corresponding_launch_source_sha256": true,
+    "seven_launch_input_hashes_match_frozen_LAUNCH_LOCKS_and_current_bytes": true,
+    "post_interruption_133_data_hashes_match_original_DATA_LOCKS_records": true,
+    "post_interruption_input_hashes_match_frozen_LAUNCH_LOCKS": true,
+    "recovery_19_evidence_hashes_match_bytes": true,
+    "archive_config_sha256_same_between_arms": "0c7b0ce75c4e0e3bd16907ccd7acff1f60a922e18d95de5d07eda7ac6ad91c73",
+    "effective_parameters_identical": true,
+    "exchange_inputs_identical": true,
+    "engine_entry_rows_identical": true,
+    "commands": "Saved commands use the same pinned Docker image, config.json, read-only market data, timerange 20260101-20260806, --cache none, --export signals, and only arm-specific strategy paths, userdirs, output paths, and container names.",
+    "image": "freqtradeorg/freqtrade@sha256:4d23160b501d2b34579e76f57ad75edfa274967cd0dd824ff1c1b86d8c166ab4"
+  },
+  "raw_docker_terminal_events": {
+    "source": "recovery/DOCKER_EVENTS.json (saved raw Docker event records)",
+    "native": {"start_epoch_s": 1790372211, "die_epoch_s": 1790374285, "exitCode": "0", "destroy_observed": true},
+    "modified": {"start_epoch_s": 1790374286, "sigterm_epoch_s": 1790375811, "sigterm_signal": "15", "die_epoch_s": 1790376253, "exitCode": "0", "destroy_observed": true},
+    "interpretation": "Both container engines completed successfully, including modified after SIGTERM during coordinator interruption. Native saved CLI status is PASS/returncode 0; original execution/STATUS.json remains RUNNING, modified CLI returncode is unobserved, and no modified status.json was fabricated."
+  },
+  "limitations": [
+    "Modified coordinator/CLI exit code and final coordinator status are unobserved because the parent tool timed out; Docker die exitCode=0 and complete official export do not reconstruct the missing CLI returncode.",
+    "No observer capture-time source/config/data SHA snapshot exists. The frozen launch and post-interruption hashes, archived strategy source, archived config equality, and existing 133-file rehash establish strong logical preservation, not continuous cryptographic proof of every byte while the observer ran.",
+    "No rerun, new market-data read/rehash, feather wallet-series recalculation, or pickle decoding was performed; wallet and closed-trade drawdown values here are separately labeled official pinned-report outputs."
+  ]
+}

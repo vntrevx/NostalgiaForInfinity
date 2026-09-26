@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "command": "python3 compare_results.py --recovery-receipt recovery/RECOVERY.json --output-dir <temporary-output>",
+  "cwd": "relocated public evidence directory, not original study directory",
+  "returncode": 0,
+  "stdout": "PASS: 441 official trades, full trades/orders/stats/engine/parameters equal; five tags covered. Reports in /tmp/pr1323-public-recheck-zy9abdgx\n",
+  "no_backtests_run": true
+}

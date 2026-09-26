@@ -1,0 +1,6 @@
+{
+  "overall_correctness": "correct",
+  "explanation": "PASS — no actionable defects found in the recovery-gate patch or COMPARISON.md provenance claims. The gate binds frozen inputs, the 133-file posthash map, original receipts, commands, exports and Docker identity/timing while preserving RUNNING, the absent modified status, observed SIGTERM and unknown modified CLI return code. Recovery-mode archive portability is supported statically: local evidence resolves under the current archive directory, while historical mount paths are checked against the recorded workspace; the parent’s reported successful consumer run was not repeated, and this review is not independent ZIP accounting.",
+  "confidence": 0.95,
+  "findings": []
+}
